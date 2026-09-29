@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "actualServerVersion": "1.9.0-geometry",
+  "actualBuildId": "geometry-20260923-r1",
+  "checks": [
+    "Java 11 JAR with H2 test database starts",
+    "old URL redirects",
+    "no-store HTML",
+    "build verification",
+    "geometric default enabled",
+    "single-root settings toggle",
+    "real benchmark report rendered without recalculation",
+    "17 entries and 9 geometric moves displayed",
+    "desktop and mobile layout"
+  ],
+  "viewports": [
+    "1440x1050",
+    "390x844"
+  ],
+  "jsErrors": []
+}

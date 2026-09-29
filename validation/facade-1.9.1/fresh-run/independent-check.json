@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "variant": "v1",
+      "connected": 17,
+      "required": 17,
+      "buildings": 85,
+      "newSections": 31,
+      "ties": 1,
+      "noUnauthorizedBuildingIntersections": true,
+      "assignedWallEntries": 17,
+      "indoorLengthM": 84.79503413915609,
+      "noDerivedConsumerPoints": true,
+      "clearancesValid": true,
+      "rootedAcyclicGraph": true,
+      "endpointReferencesValid": true,
+      "costSumValid": true,
+      "fixedNearestWall": true,
+      "turnCounts": {
+        "45": 7,
+        "90": 34,
+        "135": 0
+      },
+      "connectionTurns": 17,
+      "turnPenaltyM": 1200,
+      "facadeAlignmentPenaltyM": 281.2424548959222,
+      "facadeAdapters": 0,
+      "rankingFormulaValid": true,
+      "penaltyExcludedFromCosts": true
+    },
+    {
+      "variant": "v2",
+      "connected": 17,
+      "required": 17,
+      "buildings": 85,
+      "newSections": 31,
+      "ties": 1,
+      "noUnauthorizedBuildingIntersections": true,
+      "assignedWallEntries": 17,
+      "indoorLengthM": 87.61120387728063,
+      "noDerivedConsumerPoints": true,
+      "clearancesValid": true,
+      "rootedAcyclicGraph": true,
+      "endpointReferencesValid": true,
+      "costSumValid": true,
+      "fixedNearestWall": true,
+      "turnCounts": {
+        "45": 8,
+        "90": 33,
+        "135": 0
+      },
+      "connectionTurns": 17,
+      "turnPenaltyM": 1225,
+      "facadeAlignmentPenaltyM": 275.1252112942503,
+      "facadeAdapters": 0,
+      "rankingFormulaValid": true,
+      "penaltyExcludedFromCosts": true
+    },
+    {
+      "variant": "v3",
+      "connected": 17,
+      "required": 17,
+      "buildings": 85,
+      "newSections": 31,
+      "ties": 1,
+      "noUnauthorizedBuildingIntersections": true,
+      "assignedWallEntries": 17,
+      "indoorLengthM": 84.7950341393164,
+      "noDerivedConsumerPoints": true,
+      "clearancesValid": true,
+      "rootedAcyclicGraph": true,
+      "endpointReferencesValid": true,
+      "costSumValid": true,
+      "fixedNearestWall": true,
+      "turnCounts": {
+        "45": 7,
+        "90": 35,
+        "135": 0
+      },
+      "connectionTurns": 17,
+      "turnPenaltyM": 1225,
+      "facadeAlignmentPenaltyM": 274.5383106499084,
+      "facadeAdapters": 0,
+      "rankingFormulaValid": true,
+      "penaltyExcludedFromCosts": true
+    }
+  ],
+  "diversity": [
+    {
+      "first": "v1",
+      "second": "v2",
+      "nonSharedLengthBeyond2m": 231.9592394826417
+    },
+    {
+      "first": "v1",
+      "second": "v3",
+      "nonSharedLengthBeyond2m": 197.43146568117527
+    },
+    {
+      "first": "v2",
+      "second": "v3",
+      "nonSharedLengthBeyond2m": 29.352797315546937
+    }
+  ],
+  "depth": [
+    {
+      "fixture": "facade-1.9.1/fresh-run/supplied-facades",
+      "variant": "v1",
+      "crossings_checked": 0,
+      "new_length_m": 2060.793239519371,
+      "minimum_depth_m": 3,
+      "maximum_depth_m": 3,
+      "depth_surcharge_rub": 0.0
+    },
+    {
+      "fixture": "facade-1.9.1/fresh-run/supplied-facades",
+      "variant": "v2",
+      "crossings_checked": 0,
+      "new_length_m": 2052.928082314098,
+      "minimum_depth_m": 3,
+      "maximum_depth_m": 3,
+      "depth_surcharge_rub": 0.0
+    },
+    {
+      "fixture": "facade-1.9.1/fresh-run/supplied-facades",
+      "variant": "v3",
+      "crossings_checked": 0,
+      "new_length_m": 2059.277521708318,
+      "minimum_depth_m": 3,
+      "maximum_depth_m": 3,
+      "depth_surcharge_rub": 0.0
+    }
+  ],
+  "toleranceM": 0.0001
+}

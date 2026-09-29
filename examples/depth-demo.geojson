@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6,
+          55.75
+        ]
+      },
+      "properties": {
+        "id": "source",
+        "object_type": "source"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.6,
+            55.75
+          ],
+          [
+            37.599935648891496,
+            55.751796525293855
+          ]
+        ]
+      },
+      "properties": {
+        "id": "old",
+        "object_type": "heat_network",
+        "diameter": 50,
+        "flow_tph": 2,
+        "upstream_object_id": "source"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.60156050939019,
+          55.75091639919896
+        ]
+      },
+      "properties": {
+        "id": "entry_A",
+        "object_type": "oks_connection_point",
+        "flow_tph": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.60185976708855,
+          55.75145898201821
+        ]
+      },
+      "properties": {
+        "id": "entry_B",
+        "object_type": "oks_connection_point",
+        "flow_tph": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.600175823963966,
+            55.74820474422577
+          ],
+          [
+            37.59998278599838,
+            55.75359432036271
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gas",
+        "object_type": "restriction",
+        "restriction_type": "gas_pipeline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.60086063075359,
+            55.748212544035844
+          ],
+          [
+            37.60066768714881,
+            55.753602121740926
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable",
+        "object_type": "restriction",
+        "restriction_type": "power_cable"
+      }
+    }
+  ]
+}

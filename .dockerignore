@@ -1,0 +1,7 @@
+.git
+**/target
+release
+validation
+analysis
+/data/
+/server/data/

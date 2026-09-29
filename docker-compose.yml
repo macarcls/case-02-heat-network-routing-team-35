@@ -1,0 +1,35 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: teplotrassa
+      POSTGRES_USER: teplotrassa
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:-teplotrassa_local}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U teplotrassa -d teplotrassa']
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    mem_limit: 3g
+    restart: unless-stopped
+  server:
+    build: .
+    ports:
+      - '${PORT:-8081}:8080'
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/teplotrassa
+      DATABASE_USER: teplotrassa
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD:-teplotrassa_local}
+      CALCULATION_WORKERS: 2
+    volumes:
+      - calculation_data:/data
+    depends_on:
+      db:
+        condition: service_healthy
+    mem_limit: 8g
+    restart: unless-stopped
+volumes:
+  postgres_data:
+  calculation_data:

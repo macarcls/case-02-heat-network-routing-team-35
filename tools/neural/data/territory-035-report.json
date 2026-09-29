@@ -1,0 +1,94 @@
+{
+  "territory" : 35,
+  "policy" : "off-with-observer",
+  "elapsedMs" : 1129,
+  "search" : {
+    "buildingEntryPolicy" : "nearest_exterior_wall_fixed",
+    "entryAssignments" : [ {
+      "fixedWall" : [ [ 37.602845634677585, 55.75055554908067 ], [ 37.60283568816403, 55.75083380470015 ] ],
+      "sourceEntryId" : "entry0",
+      "nearestWallDistanceM" : 1.0,
+      "buildingId" : "b0"
+    }, {
+      "fixedWall" : [ [ 37.60317313006728, 55.75147387786906 ], [ 37.603766152271675, 55.75148061771581 ] ],
+      "sourceEntryId" : "entry1",
+      "nearestWallDistanceM" : 1.0,
+      "buildingId" : "b1"
+    }, {
+      "fixedWall" : [ [ 37.6025730467306, 55.752365175424735 ], [ 37.602560293205855, 55.75272186292311 ] ],
+      "sourceEntryId" : "entry2",
+      "nearestWallDistanceM" : 1.0,
+      "buildingId" : "b2"
+    } ],
+    "status" : "COMPLETE",
+    "requiredConnections" : 3,
+    "requestedVariants" : 1,
+    "foundVariants" : 1,
+    "bestConnectedCount" : 3,
+    "unresolvedEntryIds" : [ ],
+    "attempts" : [ {
+      "required" : 3,
+      "connected" : 3,
+      "attempt" : 1,
+      "order" : [ "b1", "b2", "b0" ],
+      "complete" : true
+    }, {
+      "required" : 3,
+      "connected" : 3,
+      "attempt" : 2,
+      "order" : [ "b2", "b0", "b1" ],
+      "complete" : true
+    } ],
+    "globalOptimalityProven" : false,
+    "neuralGuidance" : {
+      "requestedPolicy" : "off",
+      "effectivePolicy" : "off",
+      "modelId" : "synthetic-quarter-mlp-2026-09-20-r2",
+      "modelSha256" : "cd6706451bc7f06f6ef4a8a06865c0ac5e4791d5b5936030b995e0fa63c8a1ce",
+      "fallbackReason" : "",
+      "candidates" : 28,
+      "targetsSearched" : 28,
+      "prunedByAnalyticalBound" : 0,
+      "neuralPredictions" : 0,
+      "featureFailures" : 0,
+      "routeSearches" : 52,
+      "preparationMs" : 4.975534,
+      "learnedValueUsedForPruning" : false
+    },
+    "message" : "Все возвращённые варианты подключают каждую заданную точку. Найдено различных решений: 1."
+  },
+  "variants" : [ {
+    "indoor_connection_length" : 3.82842712474619,
+    "construction_cost" : 5.167840409591266E7,
+    "chamber_construction_cost" : 9000000.0,
+    "tie_in_cost" : 1.0E7,
+    "reconstruction_cost" : 2.6537005787143603E7,
+    "chamber_reconstruction_cost" : 0.0,
+    "connection_complete" : true,
+    "required_connection_count" : 3,
+    "connected_connection_count" : 3,
+    "unconnected_entry_ids" : [ ],
+    "calculated_cost" : 9.721540988305627E7,
+    "new_network_length" : 530.8767644824251,
+    "new_pipe_material_length" : 1061.7535289648501,
+    "reconstruction_length" : 145.9954325184226,
+    "length" : 676.8721970008477,
+    "score" : 7.304690297602608,
+    "base_score" : 5.904690297602609,
+    "turn_penalty_m" : 200.0,
+    "turn_penalty_score" : 1.4,
+    "ranking_length" : 876.8721970008477,
+    "turn_90_count" : 4,
+    "turn_45_count" : 2,
+    "turn_135_count" : 0,
+    "other_turn_count" : 0,
+    "connection_turn_count" : 3,
+    "unconnected_oks_ids" : [ ],
+    "bend_count" : 3,
+    "weighted_construction_length" : 530.8767644824251,
+    "special_passage_length" : 0.0,
+    "construction_complexity_factor" : 1.0,
+    "rank" : 1,
+    "rating" : 100.0
+  } ]
+}

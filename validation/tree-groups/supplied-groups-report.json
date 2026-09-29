@@ -1,0 +1,1809 @@
+{
+  "application" : {
+    "uiPath" : "/tree-1.6.0",
+    "version" : "1.6.0-tree-groups",
+    "buildId" : "tree-groups-20260922-r1"
+  },
+  "options" : {
+    "existingLoadPercent" : 50.0,
+    "dataMode" : "scenario",
+    "rankingProfile" : "appendix",
+    "mode" : "depth",
+    "depthRuleProfile" : "appendix",
+    "neuralGuidance" : "baseline",
+    "routingStrategy" : "tree",
+    "gridM" : 20.0,
+    "minDepthM" : 0.7,
+    "maxDepthM" : 6.0,
+    "maxCells" : 100000,
+    "candidateLimit" : 8,
+    "variantLimit" : 3,
+    "rlEpisodes" : 13,
+    "treeBeamWidth" : 5,
+    "treeExpansion" : 3,
+    "treeRepairPasses" : 2,
+    "treeRepairCandidates" : 8,
+    "treeGraphMaxNodes" : 8000,
+    "treeLearning" : false,
+    "treeGroupRepair" : true,
+    "treeSingleRootTrial" : true,
+    "treeResumeFromBest" : true,
+    "treeLearningRounds" : 2,
+    "treeTrainingSteps" : 16,
+    "treeTrainingRate" : 0.001,
+    "rlSeed" : 71,
+    "rlTemperature" : 0.7,
+    "rlLearning" : false,
+    "rlRemember" : true,
+    "rlBatchSize" : 4,
+    "rlLearningRate" : 0.003
+  },
+  "scenarioChanges" : [ {
+    "id" : "115",
+    "upstream_object_id" : "117",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "116",
+    "upstream_object_id" : "144",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "117",
+    "upstream_object_id" : "120",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "118",
+    "upstream_object_id" : "115",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "119",
+    "upstream_object_id" : "118",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "120",
+    "upstream_object_id" : "116",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "121",
+    "upstream_object_id" : "119",
+    "diameter" : 300,
+    "flow_tph" : 218.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "122",
+    "upstream_object_id" : "125",
+    "diameter" : 300,
+    "flow_tph" : 218.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "123",
+    "upstream_object_id" : "107",
+    "diameter" : 300,
+    "flow_tph" : 218.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "124",
+    "upstream_object_id" : "109",
+    "diameter" : 300,
+    "flow_tph" : 218.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "125",
+    "upstream_object_id" : "108",
+    "diameter" : 300,
+    "flow_tph" : 218.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "126",
+    "upstream_object_id" : "110",
+    "diameter" : 300,
+    "flow_tph" : 218.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "127",
+    "upstream_object_id" : "106",
+    "diameter" : 300,
+    "flow_tph" : 218.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "128",
+    "upstream_object_id" : "127",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "129",
+    "upstream_object_id" : "128",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "130",
+    "upstream_object_id" : "111",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "131",
+    "upstream_object_id" : "130",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "132",
+    "upstream_object_id" : "131",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "133",
+    "upstream_object_id" : "132",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "134",
+    "upstream_object_id" : "112",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "135",
+    "upstream_object_id" : "134",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "136",
+    "upstream_object_id" : "135",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "137",
+    "upstream_object_id" : "136",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "138",
+    "upstream_object_id" : "113",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "139",
+    "upstream_object_id" : "138",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "140",
+    "upstream_object_id" : "139",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "141",
+    "upstream_object_id" : "137",
+    "diameter" : 400,
+    "flow_tph" : 471.55,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "142",
+    "upstream_object_id" : "140",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "143",
+    "upstream_object_id" : "114",
+    "diameter" : 500,
+    "flow_tph" : 831.7,
+    "flow_basis" : "scenario_capacity_percent",
+    "topology_inferred" : true
+  }, {
+    "id" : "106",
+    "upstream_object_id" : "126",
+    "diameter" : 300,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "107",
+    "upstream_object_id" : "124",
+    "diameter" : 300,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "108",
+    "upstream_object_id" : "121",
+    "diameter" : 300,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "109",
+    "upstream_object_id" : "122",
+    "diameter" : 300,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "110",
+    "upstream_object_id" : "123",
+    "diameter" : 300,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "111",
+    "upstream_object_id" : "129",
+    "diameter" : 400,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "112",
+    "upstream_object_id" : "133",
+    "diameter" : 400,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "113",
+    "upstream_object_id" : "141",
+    "diameter" : 400,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  }, {
+    "id" : "114",
+    "upstream_object_id" : "142",
+    "diameter" : 500,
+    "flow_tph" : null,
+    "flow_basis" : "input",
+    "topology_inferred" : true
+  } ],
+  "inputSha256" : "07921d7740c0297a63111846d4b77dfb6ccb33da65ffd7ccb14c5b2d786dd7d0",
+  "savedBaselineScore" : 23.618477814092167,
+  "elapsedMs" : 356481,
+  "search" : {
+    "buildingEntryPolicy" : "nearest_exterior_wall_fixed",
+    "entryAssignments" : [ {
+      "sourceEntryId" : "1",
+      "nearestWallDistanceM" : 8.311169004042569,
+      "buildingId" : "75",
+      "fixedWall" : [ [ 37.634240063, 55.69959651599999 ], [ 37.63512513, 55.699406212999996 ] ]
+    }, {
+      "sourceEntryId" : "2",
+      "nearestWallDistanceM" : 5.799401572002089,
+      "buildingId" : "77",
+      "fixedWall" : [ [ 37.634673834, 55.69984556 ], [ 37.634806195, 55.70004175799999 ] ]
+    }, {
+      "sourceEntryId" : "3",
+      "nearestWallDistanceM" : 4.948051415569616,
+      "buildingId" : "74",
+      "fixedWall" : [ [ 37.632843437, 55.700146188999994 ], [ 37.63313436, 55.700577454 ] ]
+    }, {
+      "sourceEntryId" : "4",
+      "nearestWallDistanceM" : 4.5868615200124685,
+      "buildingId" : "71",
+      "fixedWall" : [ [ 37.636283719, 55.700220402 ], [ 37.637971688, 55.69985736700001 ] ]
+    }, {
+      "sourceEntryId" : "5",
+      "nearestWallDistanceM" : 10.393939967314504,
+      "buildingId" : "72",
+      "fixedWall" : [ [ 37.6351501, 55.698572218999985 ], [ 37.636873606, 55.698201526 ] ]
+    }, {
+      "sourceEntryId" : "6",
+      "nearestWallDistanceM" : 2.552022319364324,
+      "buildingId" : "82",
+      "fixedWall" : [ [ 37.631166178, 55.700256572 ], [ 37.632069704, 55.700060344 ] ]
+    }, {
+      "sourceEntryId" : "7",
+      "nearestWallDistanceM" : 5.193667369025158,
+      "buildingId" : "83",
+      "fixedWall" : [ [ 37.638147995, 55.69793531599999 ], [ 37.638436748, 55.69787319699999 ] ]
+    }, {
+      "sourceEntryId" : "8",
+      "nearestWallDistanceM" : 2.526646818012766,
+      "buildingId" : "81",
+      "fixedWall" : [ [ 37.632226806, 55.70028651900001 ], [ 37.632242151, 55.700309225999995 ] ]
+    }, {
+      "sourceEntryId" : "9",
+      "nearestWallDistanceM" : 7.353166867764537,
+      "buildingId" : "87",
+      "fixedWall" : [ [ 37.634335756000006, 55.69734672 ], [ 37.634576837, 55.697295081000014 ] ]
+    }, {
+      "sourceEntryId" : "10",
+      "nearestWallDistanceM" : 6.535781990489888,
+      "buildingId" : "88",
+      "fixedWall" : [ [ 37.635995027, 55.697315893 ], [ 37.636005098, 55.69733106100001 ] ]
+    }, {
+      "sourceEntryId" : "11",
+      "nearestWallDistanceM" : 6.26913071858671,
+      "buildingId" : "90",
+      "fixedWall" : [ [ 37.633080308, 55.699549179999984 ], [ 37.633154157, 55.699658679 ] ]
+    }, {
+      "sourceEntryId" : "12",
+      "nearestWallDistanceM" : 1.5213664388930985,
+      "buildingId" : "92",
+      "fixedWall" : [ [ 37.632689216, 55.697947052 ], [ 37.633172411, 55.69866373300001 ] ]
+    }, {
+      "sourceEntryId" : "13",
+      "nearestWallDistanceM" : 3.2135594898764714,
+      "buildingId" : "91",
+      "fixedWall" : [ [ 37.633871136, 55.697698147 ], [ 37.633893385, 55.697693362 ] ]
+    }, {
+      "sourceEntryId" : "14",
+      "nearestWallDistanceM" : 0.057679555347899286,
+      "buildingId" : "89",
+      "fixedWall" : [ [ 37.633707868, 55.697482489 ], [ 37.633812596, 55.697459921000004 ] ]
+    }, {
+      "sourceEntryId" : "15",
+      "nearestWallDistanceM" : 2.1704066545967104,
+      "buildingId" : "92",
+      "fixedWall" : [ [ 37.632011503, 55.697029743 ], [ 37.632039791, 55.69702369499999 ] ]
+    }, {
+      "sourceEntryId" : "16",
+      "nearestWallDistanceM" : 2.155074250911413,
+      "buildingId" : "96",
+      "fixedWall" : [ [ 37.640774622, 55.69836806000001 ], [ 37.64082003, 55.698435372000006 ] ]
+    }, {
+      "sourceEntryId" : "17",
+      "nearestWallDistanceM" : 5.374510728046409,
+      "buildingId" : "97",
+      "fixedWall" : [ [ 37.638867155, 55.696943659000006 ], [ 37.639682846, 55.69676925800001 ] ]
+    } ],
+    "treeSearch" : {
+      "graph" : {
+        "gridNodes" : 2706,
+        "freeNodes" : 1726,
+        "candidateEdges" : 5176,
+        "skeletonEdges" : 427,
+        "removedCandidateEdges" : 4749,
+        "components" : 18,
+        "anchorNodes" : 46,
+        "spacingM" : 20.0,
+        "role" : "advisory_corridor_ranking_and_remaining_cost",
+        "exactRoutesRevalidated" : true,
+        "pruning" : "minimum_spanning_forest_then_nonterminal_leaf_removal",
+        "diffusionModelUsed" : false,
+        "globalOptimalityProven" : false
+      },
+      "beamWidth" : 5,
+      "expansionPerTree" : 3,
+      "policyModelId" : "reinforce-exact-engine-2026-09-20-u60",
+      "policyModelSha256" : "e9b7bcb23e0c89c8e09b25666a387cbc3836f1720ee9eab234d96e38dcf45eb0",
+      "trainingDuringCalculation" : false,
+      "diffusionModelUsed" : false,
+      "selection" : "exact_partial_score_plus_advisory_remaining_estimate",
+      "searchVersion" : "graph-tree-groups-1.6.0",
+      "resumedFromBestNetwork" : true,
+      "levels" : [ ],
+      "testedExtensions" : 0,
+      "rejectedExtensions" : 0,
+      "maskedKnownFailures" : 0,
+      "duplicateStates" : 0,
+      "rejectedByEntry" : { },
+      "rejections" : [ ],
+      "rejectionsTruncated" : false,
+      "repairs" : [ ],
+      "acceptedRepairs" : 0,
+      "completedLevels" : 0,
+      "cancelled" : false,
+      "sharedOptimization" : {
+        "groupRepairEnabled" : true,
+        "singleRootComparisonEnabled" : true,
+        "groupTrials" : [ {
+          "entryIds" : [ "10", "16", "17", "7" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "NEAREST_WALL_ROUTE_NOT_FOUND: ввод 10, здание 88: допустимый маршрут через закреплённую ближайшую стену не найден. Другие стены запрещены. Последняя проверка: ROUTE_SEARCH_EXHAUSTED: геометрический поиск не нашёл коридор для выбранной врезки и направления"
+        }, {
+          "entryIds" : [ "10", "16", "17", "7" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "NEAREST_WALL_ROUTE_NOT_FOUND: ввод 7, здание 83: допустимый маршрут через закреплённую ближайшую стену не найден. Другие стены запрещены. Последняя проверка: RAMP_OR_DEPTH_LIMIT: недостаточно длины для уклона 0,10 или превышен диапазон глубин"
+        }, {
+          "entryIds" : [ "1", "2", "4" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : 24.088199800914694,
+          "complete" : true,
+          "accepted" : false,
+          "tieIns" : 3,
+          "newLengthM" : 2230.362631000389,
+          "calculatedCost" : 4.273443175629843E8
+        }, {
+          "entryIds" : [ "1", "2", "4" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : 24.313844794980312,
+          "complete" : true,
+          "accepted" : false,
+          "tieIns" : 3,
+          "newLengthM" : 2274.525503864566,
+          "calculatedCost" : 4.3067133097273743E8
+        }, {
+          "entryIds" : [ "6", "8" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : 23.90811327160961,
+          "complete" : true,
+          "accepted" : false,
+          "tieIns" : 3,
+          "newLengthM" : 2208.10194107364,
+          "calculatedCost" : 4.286548725799545E8
+        }, {
+          "entryIds" : [ "6", "8" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : 23.89913174956215,
+          "complete" : true,
+          "accepted" : false,
+          "tieIns" : 3,
+          "newLengthM" : 2206.761000818194,
+          "calculatedCost" : 4.284777761056286E8
+        }, {
+          "entryIds" : [ "10", "13", "14", "9" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "group_not_completed_in_checked_routes"
+        }, {
+          "entryIds" : [ "10", "13", "14", "9" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "group_not_completed_in_checked_routes"
+        } ],
+        "singleRootTrials" : [ {
+          "entryIds" : [ "1", "10", "11", "12", "13", "14", "15", "16", "17", "2", "3", "4", "5", "6", "7", "8", "9" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "NEAREST_WALL_ROUTE_NOT_FOUND: ввод 10, здание 88: допустимый маршрут через закреплённую ближайшую стену не найден. Другие стены запрещены. Последняя проверка: Коридор не найден среди проверенных кандидатов и областей поиска",
+          "existingId" : "106",
+          "coordinates" : [ 37.638461839014155, 55.69763853262273 ],
+          "order" : "near_to_far",
+          "connected" : 16
+        }, {
+          "entryIds" : [ "1", "10", "11", "12", "13", "14", "15", "16", "17", "2", "3", "4", "5", "6", "7", "8", "9" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "NEAREST_WALL_ROUTE_NOT_FOUND: ввод 10, здание 88: допустимый маршрут через закреплённую ближайшую стену не найден. Другие стены запрещены. Последняя проверка: Коридор не найден среди проверенных кандидатов и областей поиска",
+          "existingId" : "106",
+          "coordinates" : [ 37.638461839014155, 55.69763853262273 ],
+          "order" : "far_to_near",
+          "connected" : 16
+        }, {
+          "entryIds" : [ "1", "10", "11", "12", "13", "14", "15", "16", "17", "2", "3", "4", "5", "6", "7", "8", "9" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "NEAREST_WALL_ROUTE_NOT_FOUND: ввод 10, здание 88: допустимый маршрут через закреплённую ближайшую стену не найден. Другие стены запрещены. Последняя проверка: Коридор не найден среди проверенных кандидатов и областей поиска",
+          "existingId" : "110",
+          "coordinates" : [ 37.639132446457374, 55.69802165934685 ],
+          "order" : "near_to_far",
+          "connected" : 7
+        }, {
+          "entryIds" : [ "1", "10", "11", "12", "13", "14", "15", "16", "17", "2", "3", "4", "5", "6", "7", "8", "9" ],
+          "beforeScore" : 23.618477814092167,
+          "candidateScore" : null,
+          "complete" : false,
+          "accepted" : false,
+          "reason" : "NEAREST_WALL_ROUTE_NOT_FOUND: ввод 8, здание 81: допустимый маршрут через закреплённую ближайшую стену не найден. Другие стены запрещены. Последняя проверка: OCCUPIED_ROUTE_SEARCH_EXHAUSTED: не найден коридор с учётом уже построенных ветвей",
+          "existingId" : "110",
+          "coordinates" : [ 37.639132446457374, 55.69802165934685 ],
+          "order" : "far_to_near",
+          "connected" : 13
+        } ],
+        "trainingValidationUsesFreshSearchOnly" : true,
+        "beforeScore" : 23.618477814092167,
+        "plannedGroups" : 4,
+        "singleRootCandidateLimit" : 2,
+        "newPreferencePairsForNextRun" : 0,
+        "acceptedGroups" : 0,
+        "afterScore" : 23.618477814092167,
+        "selectedTieIns" : 3,
+        "elapsedMs" : 355830,
+        "singleRootPolicy" : "compare_complete_networks_keep_best_score"
+      },
+      "transitionCacheHits" : 6,
+      "computedTransitions" : 103,
+      "cachedFailuresByEntry" : {
+        "10" : 2,
+        "15" : 1,
+        "3" : 1,
+        "6" : 1,
+        "8" : 1
+      }
+    },
+    "status" : "FEWER_VARIANTS_FOUND",
+    "requiredConnections" : 17,
+    "requestedVariants" : 3,
+    "foundVariants" : 1,
+    "bestConnectedCount" : 17,
+    "unresolvedEntryIds" : [ ],
+    "attempts" : [ ],
+    "globalOptimalityProven" : false,
+    "restoredNetworks" : 1,
+    "rejectedExperience" : [ ],
+    "qualityProgress" : {
+      "scoreDirection" : "lower_is_better",
+      "bestBeforeRun" : 23.618477814092167,
+      "firstCompleteScore" : null,
+      "firstCompleteAttempt" : null,
+      "bestFreshScore" : null,
+      "bestAfterRun" : 23.618477814092167,
+      "baselineScore" : 23.618477814092167,
+      "baselineSource" : "saved_network",
+      "improvementPercent" : 0.0,
+      "improved" : false,
+      "completeEpisodes" : 0,
+      "completedEpisodes" : 0,
+      "episodesSinceLastImprovement" : 0
+    },
+    "neuralGuidance" : {
+      "requestedPolicy" : "baseline",
+      "effectivePolicy" : "off",
+      "modelId" : "synthetic-quarter-mlp-2026-09-20-r4",
+      "modelSha256" : "1c8bd5430f99e010ca1d0bf08f66997fbbe9c7a70f9b2c55c0c916dac7376a02",
+      "fallbackReason" : "",
+      "candidates" : 247,
+      "targetsSearched" : 247,
+      "prunedByAnalyticalBound" : 0,
+      "neuralPredictions" : 0,
+      "featureFailures" : 0,
+      "routeSearches" : 1165,
+      "preparationMs" : 7653.752195,
+      "learnedValueUsedForPruning" : false
+    },
+    "message" : "Все возвращённые варианты подключают каждую заданную точку. Найдено различных решений: 1."
+  },
+  "variants" : [ {
+    "indoor_connection_length" : 86.83564556977446,
+    "tie_in_count" : 3,
+    "construction_cost" : 2.4526783338818973E8,
+    "chamber_construction_cost" : 5.1E7,
+    "tie_in_cost" : 1.5E7,
+    "reconstruction_cost" : 1.0459008222958696E8,
+    "chamber_reconstruction_cost" : 1.0E7,
+    "connection_complete" : true,
+    "required_connection_count" : 17,
+    "connected_connection_count" : 17,
+    "unconnected_entry_ids" : [ ],
+    "calculated_cost" : 4.258579156177767E8,
+    "new_network_length" : 2212.661720214818,
+    "new_pipe_material_length" : 4425.323440429636,
+    "reconstruction_length" : 385.490338716656,
+    "length" : 2598.152058931474,
+    "score" : 23.618477814092167,
+    "base_score" : 19.718477814092168,
+    "turn_penalty_m" : 1300.0,
+    "turn_penalty_score" : 3.9,
+    "ranking_length" : 3898.152058931474,
+    "turn_90_count" : 38,
+    "turn_45_count" : 7,
+    "turn_135_count" : 0,
+    "other_turn_count" : 0,
+    "connection_turn_count" : 17,
+    "unconnected_oks_ids" : [ ],
+    "bend_count" : 28,
+    "weighted_construction_length" : 2212.661720214818,
+    "special_passage_length" : 0.0,
+    "construction_complexity_factor" : 1.0,
+    "routing_strategy" : "experience",
+    "source" : "saved_best_revalidated",
+    "rank" : 1,
+    "rating" : 100.0
+  } ],
+  "checks" : [ {
+    "diameters" : [ {
+      "diameter" : 300,
+      "componentLengthM" : 261.2242511194669,
+      "limitM" : 1718.0,
+      "edges" : [ "tt:v1:edge_11:0", "tt:v1:edge_16:0", "tt:v1:edge_26:0" ],
+      "maximumFlowTph" : 358.68,
+      "capacityTph" : 437.4,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 19.99999999996609,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_12:0" ],
+      "maximumFlowTph" : 27.82,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 22.204570150710502,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_17:0" ],
+      "maximumFlowTph" : 26.09,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 39.84635954729674,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_24:0" ],
+      "maximumFlowTph" : 34.53,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 200,
+      "componentLengthM" : 117.80790809061126,
+      "limitM" : 1042.0,
+      "edges" : [ "tt:v1:edge_27:0", "tt:v1:edge_36:0" ],
+      "maximumFlowTph" : 105.92,
+      "capacityTph" : 152.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 250,
+      "componentLengthM" : 211.0688273815716,
+      "limitM" : 1379.0,
+      "edges" : [ "tt:v1:edge_31:0", "tt:v1:edge_41:0" ],
+      "maximumFlowTph" : 198.85000000000002,
+      "capacityTph" : 274.9,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 28.577532337456706,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_32:0" ],
+      "maximumFlowTph" : 40.0,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 100,
+      "componentLengthM" : 19.679364585790406,
+      "limitM" : 419.0,
+      "edges" : [ "tt:v1:edge_37:0" ],
+      "maximumFlowTph" : 19.73,
+      "capacityTph" : 22.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 100,
+      "componentLengthM" : 59.11895322822115,
+      "limitM" : 419.0,
+      "edges" : [ "tt:v1:edge_52:0", "tt:v1:edge_54:0" ],
+      "maximumFlowTph" : 18.03,
+      "capacityTph" : 22.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 200,
+      "componentLengthM" : 94.07098507157232,
+      "limitM" : 1042.0,
+      "edges" : [ "tt:v1:edge_56:0", "tt:v1:edge_93:0" ],
+      "maximumFlowTph" : 72.57000000000001,
+      "capacityTph" : 152.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 65,
+      "componentLengthM" : 53.504627359322406,
+      "limitM" : 245.0,
+      "edges" : [ "tt:v1:edge_59:0" ],
+      "maximumFlowTph" : 4.08,
+      "capacityTph" : 8.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 150,
+      "componentLengthM" : 15.426811344986497,
+      "limitM" : 696.0,
+      "edges" : [ "tt:v1:edge_61:0" ],
+      "maximumFlowTph" : 51.66,
+      "capacityTph" : 65.1,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 100,
+      "componentLengthM" : 15.42681134481634,
+      "limitM" : 419.0,
+      "edges" : [ "tt:v1:edge_62:0" ],
+      "maximumFlowTph" : 19.77,
+      "capacityTph" : 22.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 184.1826137909173,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_64:0" ],
+      "maximumFlowTph" : 31.89,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 259.514533010138,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_77:0" ],
+      "maximumFlowTph" : 33.14,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 200,
+      "componentLengthM" : 226.0180933130763,
+      "limitM" : 1042.0,
+      "edges" : [ "tt:v1:edge_79:0", "tt:v1:edge_80:0" ],
+      "maximumFlowTph" : 96.89999999999999,
+      "capacityTph" : 152.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 100,
+      "componentLengthM" : 130.81592818634627,
+      "limitM" : 419.0,
+      "edges" : [ "tt:v1:edge_82:0" ],
+      "maximumFlowTph" : 20.63,
+      "capacityTph" : 22.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 98.3377924612897,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_71:0", "tt:v1:edge_89:0" ],
+      "maximumFlowTph" : 34.02,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 100,
+      "componentLengthM" : 132.3990754766128,
+      "limitM" : 419.0,
+      "edges" : [ "tt:v1:edge_84:0" ],
+      "maximumFlowTph" : 18.76,
+      "capacityTph" : 22.3,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 125,
+      "componentLengthM" : 15.590449592170389,
+      "limitM" : 554.0,
+      "edges" : [ "tt:v1:edge_94:0" ],
+      "maximumFlowTph" : 24.87,
+      "capacityTph" : 40.2,
+      "raisedForLength" : false
+    }, {
+      "diameter" : 150,
+      "componentLengthM" : 207.84623282247827,
+      "limitM" : 696.0,
+      "edges" : [ "tt:v1:edge_96:0" ],
+      "maximumFlowTph" : 47.7,
+      "capacityTph" : 65.1,
+      "raisedForLength" : false
+    } ],
+    "depth" : {
+      "ruleProfile" : "appendix",
+      "ordinaryDepthM" : 3.0,
+      "boundaryDepthM" : 3.0,
+      "surfaceModel" : "flat_z_zero",
+      "lengthBasis" : "horizontal_plan",
+      "allowedMinimumM" : 0.7,
+      "allowedMaximumM" : 6.0,
+      "minimumDepthM" : 3.0,
+      "maximumDepthM" : 3.0,
+      "maximumSlope" : 0.0,
+      "slopeLimit" : 0.1,
+      "nodeContinuityValid" : true,
+      "plateausValid" : true,
+      "additionalDepthCost" : 0.0,
+      "crossings" : [ ],
+      "profiles" : [ {
+        "edgeId" : "tt:v1:edge_11:0",
+        "startNodeId" : "tt:v1:tie_4",
+        "endNodeId" : "tt:v1:ch_10",
+        "diameter" : 300,
+        "lengthM" : 32.373904070552015,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 32.373904070552015
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_12:0",
+        "startNodeId" : "tt:v1:ch_10",
+        "endNodeId" : "7",
+        "diameter" : 125,
+        "lengthM" : 19.99999999996609,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 19.99999999996609
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_16:0",
+        "startNodeId" : "tt:v1:ch_10",
+        "endNodeId" : "tt:v1:ch_15",
+        "diameter" : 300,
+        "lengthM" : 194.29474150887052,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 194.29474150887052
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_17:0",
+        "startNodeId" : "tt:v1:ch_15",
+        "endNodeId" : "5",
+        "diameter" : 125,
+        "lengthM" : 22.204570150710502,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 22.204570150710502
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_24:0",
+        "startNodeId" : "tt:v1:ch_20",
+        "endNodeId" : "9",
+        "diameter" : 125,
+        "lengthM" : 39.84635954729674,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 39.84635954729674
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_26:0",
+        "startNodeId" : "tt:v1:ch_15",
+        "endNodeId" : "tt:v1:ch_25",
+        "diameter" : 300,
+        "lengthM" : 34.55560554004434,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 34.55560554004434
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_27:0",
+        "startNodeId" : "tt:v1:ch_25",
+        "endNodeId" : "tt:v1:ch_20",
+        "diameter" : 200,
+        "lengthM" : 107.26001822121485,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 107.26001822121485
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_31:0",
+        "startNodeId" : "tt:v1:ch_25",
+        "endNodeId" : "tt:v1:ch_30",
+        "diameter" : 250,
+        "lengthM" : 86.20745933660449,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 86.20745933660449
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_32:0",
+        "startNodeId" : "tt:v1:ch_30",
+        "endNodeId" : "12",
+        "diameter" : 125,
+        "lengthM" : 28.577532337456706,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 28.577532337456706
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_36:0",
+        "startNodeId" : "tt:v1:ch_20",
+        "endNodeId" : "tt:v1:ch_35",
+        "diameter" : 200,
+        "lengthM" : 10.54788986939641,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 10.54788986939641
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_37:0",
+        "startNodeId" : "tt:v1:ch_35",
+        "endNodeId" : "14",
+        "diameter" : 100,
+        "lengthM" : 19.679364585790406,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 19.679364585790406
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_52:0",
+        "startNodeId" : "tt:v1:ch_50",
+        "endNodeId" : "8",
+        "diameter" : 100,
+        "lengthM" : 33.44226613948395,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 33.44226613948395
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_54:0",
+        "startNodeId" : "tt:v1:ch_50",
+        "endNodeId" : "6",
+        "diameter" : 100,
+        "lengthM" : 25.676687088737204,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 25.676687088737204
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_56:0",
+        "startNodeId" : "tt:v1:ch_45",
+        "endNodeId" : "tt:v1:ch_55",
+        "diameter" : 200,
+        "lengthM" : 59.70363110696674,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 59.70363110696674
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_59:0",
+        "startNodeId" : "tt:v1:ch_55",
+        "endNodeId" : "11",
+        "diameter" : 65,
+        "lengthM" : 53.504627359322406,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 53.504627359322406
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_61:0",
+        "startNodeId" : "tt:v1:ch_35",
+        "endNodeId" : "tt:v1:ch_60",
+        "diameter" : 150,
+        "lengthM" : 15.426811344986497,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 15.426811344986497
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_62:0",
+        "startNodeId" : "tt:v1:ch_60",
+        "endNodeId" : "13",
+        "diameter" : 100,
+        "lengthM" : 15.42681134481634,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 15.42681134481634
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_64:0",
+        "startNodeId" : "tt:v1:ch_60",
+        "endNodeId" : "15",
+        "diameter" : 125,
+        "lengthM" : 184.1826137909173,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 184.1826137909173
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_77:0",
+        "startNodeId" : "tt:v1:tie_75",
+        "endNodeId" : "10",
+        "diameter" : 125,
+        "lengthM" : 259.514533010138,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 259.514533010138
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_79:0",
+        "startNodeId" : "tt:v1:tie_7",
+        "endNodeId" : "tt:v1:ch_78",
+        "diameter" : 200,
+        "lengthM" : 113.95860524352854,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 113.95860524352854
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_80:0",
+        "startNodeId" : "tt:v1:ch_78",
+        "endNodeId" : "16",
+        "diameter" : 200,
+        "lengthM" : 112.05948806954777,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 112.05948806954777
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_82:0",
+        "startNodeId" : "tt:v1:ch_78",
+        "endNodeId" : "17",
+        "diameter" : 100,
+        "lengthM" : 130.81592818634627,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 130.81592818634627
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_71:0",
+        "startNodeId" : "tt:v1:ch_55",
+        "endNodeId" : "tt:v1:ch_50",
+        "diameter" : 125,
+        "lengthM" : 55.29636889291658,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 55.29636889291658
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_89:0",
+        "startNodeId" : "tt:v1:ch_55",
+        "endNodeId" : "3",
+        "diameter" : 125,
+        "lengthM" : 43.041423568373105,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 43.041423568373105
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_41:0",
+        "startNodeId" : "tt:v1:ch_30",
+        "endNodeId" : "tt:v1:ch_45",
+        "diameter" : 250,
+        "lengthM" : 124.86136804496711,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 124.86136804496711
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_84:0",
+        "startNodeId" : "tt:v1:ch_45",
+        "endNodeId" : "2",
+        "diameter" : 100,
+        "lengthM" : 132.3990754766128,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 132.3990754766128
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_93:0",
+        "startNodeId" : "tt:v1:ch_45",
+        "endNodeId" : "tt:v1:ch_92",
+        "diameter" : 200,
+        "lengthM" : 34.36735396460559,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 34.36735396460559
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_94:0",
+        "startNodeId" : "tt:v1:ch_92",
+        "endNodeId" : "1",
+        "diameter" : 125,
+        "lengthM" : 15.590449592170389,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 15.590449592170389
+        } ]
+      }, {
+        "edgeId" : "tt:v1:edge_96:0",
+        "startNodeId" : "tt:v1:ch_92",
+        "endNodeId" : "4",
+        "diameter" : 150,
+        "lengthM" : 207.84623282247827,
+        "stations" : [ {
+          "depthM" : 3.0,
+          "distanceM" : 0.0
+        }, {
+          "depthM" : 3.0,
+          "distanceM" : 207.84623282247827
+        } ]
+      } ]
+    },
+    "bendCount" : 28,
+    "turnPenalty" : {
+      "equivalentM" : 1300.0,
+      "turn45EquivalentM" : 50.0,
+      "includedInMonetaryCost" : false,
+      "turn90EquivalentM" : 25.0,
+      "includesConnections" : true,
+      "turn135EquivalentM" : 75.0
+    },
+    "rankingProfile" : "appendix",
+    "maximumChamberDegree" : 4,
+    "chamberDegreeLimit" : 4,
+    "topologyValid" : true,
+    "spatialRulesValid" : true,
+    "buildingIntersectionsValid" : true,
+    "permittedBuildingEntries" : [ {
+      "sourceEntryId" : "7",
+      "buildingId" : "83",
+      "edgeId" : "tt:v1:edge_12:0",
+      "connectionCoordinates" : [ 37.6382803042186, 55.69795678628921 ],
+      "wallCrossingCoordinates" : [ 37.638250031720396, 55.69791336509378 ],
+      "indoorLengthM" : 5.193990297834928,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 5.193667369025158,
+      "selectedWallDistanceM" : 5.193667369138024,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63815245497464, 55.697934356539015 ], [ 37.63843228803914, 55.69787415647138 ] ] ]
+    }, {
+      "sourceEntryId" : "5",
+      "buildingId" : "72",
+      "edgeId" : "tt:v1:edge_17:0",
+      "connectionCoordinates" : [ 37.6354170560464, 55.6986147317495 ],
+      "wallCrossingCoordinates" : [ 37.63535647797362, 55.69852783271727 ],
+      "indoorLengthM" : 10.394590495160386,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 10.393939967314504,
+      "selectedWallDistanceM" : 10.393939967367917,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.635154560181405, 55.69857125974117 ], [ 37.63686914590195, 55.69820248532175 ] ] ]
+    }, {
+      "sourceEntryId" : "9",
+      "buildingId" : "87",
+      "edgeId" : "tt:v1:edge_24:0",
+      "connectionCoordinates" : [ 37.6344462678961, 55.6972523917077 ],
+      "wallCrossingCoordinates" : [ 37.63438108463619, 55.69733701075627 ],
+      "indoorLengthM" : 10.270951356906242,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 7.353166867764537,
+      "selectedWallDistanceM" : 7.353166867658416,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.634340218355, 55.69734576417929 ], [ 37.63457237465643, 55.69729603682937 ] ] ]
+    }, {
+      "sourceEntryId" : "12",
+      "buildingId" : "92",
+      "edgeId" : "tt:v1:edge_32:0",
+      "connectionCoordinates" : [ 37.63313932211122, 55.69865306825248 ],
+      "wallCrossingCoordinates" : [ 37.633170362855076, 55.69866069522406 ],
+      "indoorLengthM" : 2.127824383567047,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 1.5213664388930985,
+      "selectedWallDistanceM" : 1.5213664389697845,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63269091427499, 55.697949570951934 ], [ 37.63317071266371, 55.6986612140547 ] ] ]
+    }, {
+      "sourceEntryId" : "14",
+      "buildingId" : "89",
+      "edgeId" : "tt:v1:edge_37:0",
+      "connectionCoordinates" : [ 37.6337524411436, 55.6974723292097 ],
+      "wallCrossingCoordinates" : [ 37.63375364380315, 55.69747262471506 ],
+      "indoorLengthM" : 0.08244375879487659,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 0.057679555347899286,
+      "selectedWallDistanceM" : 0.05767955531274721,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.633711658124746, 55.69748167226213 ], [ 37.633808805879426, 55.69746073774102 ] ] ]
+    }, {
+      "sourceEntryId" : "8",
+      "buildingId" : "81",
+      "edgeId" : "tt:v1:edge_52:0",
+      "connectionCoordinates" : [ 37.632202633606305, 55.70031441743034 ],
+      "wallCrossingCoordinates" : [ 37.63224003986822, 55.70030610202191 ],
+      "indoorLengthM" : 2.52678449614854,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 2.526646818012766,
+      "selectedWallDistanceM" : 2.5266468181118835,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63222825250376, 55.700288659487384 ], [ 37.63224070449474, 55.70030708551277 ] ] ]
+    }, {
+      "sourceEntryId" : "6",
+      "buildingId" : "82",
+      "edgeId" : "tt:v1:edge_54:0",
+      "connectionCoordinates" : [ 37.632012226474316, 55.70004826125506 ],
+      "wallCrossingCoordinates" : [ 37.63202709843829, 55.70006959728071 ],
+      "indoorLengthM" : 2.5521012777683842,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 2.552022319364324,
+      "selectedWallDistanceM" : 2.552022319119083,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63116996458277, 55.70025574964708 ], [ 37.63206591745464, 55.70006116638092 ] ] ]
+    }, {
+      "sourceEntryId" : "11",
+      "buildingId" : "90",
+      "edgeId" : "tt:v1:edge_59:0",
+      "connectionCoordinates" : [ 37.6332044989075, 55.699575075115 ],
+      "wallCrossingCoordinates" : [ 37.63311168780395, 55.699595708226774 ],
+      "indoorLengthM" : 6.26951799136381,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 6.26913071858671,
+      "selectedWallDistanceM" : 6.269130718603144,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.633081525458266, 55.69955098518155 ], [ 37.6331529395351, 55.69965687381916 ] ] ]
+    }, {
+      "sourceEntryId" : "13",
+      "buildingId" : "91",
+      "edgeId" : "tt:v1:edge_62:0",
+      "connectionCoordinates" : [ 37.6339010562985, 55.697722607233096 ],
+      "wallCrossingCoordinates" : [ 37.63388232842884, 55.697695739891486 ],
+      "indoorLengthM" : 3.2137605616394365,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 3.2135594898764714,
+      "selectedWallDistanceM" : 3.2135594898838016,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63387492709304, 55.697697331665736 ], [ 37.63388959390772, 55.69769417733485 ] ] ]
+    }, {
+      "sourceEntryId" : "15",
+      "buildingId" : "92",
+      "edgeId" : "tt:v1:edge_64:0",
+      "connectionCoordinates" : [ 37.63203443949898, 55.69704568983144 ],
+      "wallCrossingCoordinates" : [ 37.632021791659916, 55.69702754327616 ],
+      "indoorLengthM" : 2.170593552100969,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 2.1704066545967104,
+      "selectedWallDistanceM" : 2.1704066545346583,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63201596635809, 55.697028788730556 ], [ 37.63203532764306, 55.697024649270304 ] ] ]
+    }, {
+      "sourceEntryId" : "10",
+      "buildingId" : "88",
+      "edgeId" : "tt:v1:edge_77:0",
+      "connectionCoordinates" : [ 37.6360932402107, 55.697296569490895 ],
+      "wallCrossingCoordinates" : [ 37.6359993230308, 55.69732236328205 ],
+      "indoorLengthM" : 6.564678047822106,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 6.535781990489888,
+      "selectedWallDistanceM" : 6.5374157140900895,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.6359967026893, 55.69731841676765 ], [ 37.636003422309635, 55.697328537232465 ] ] ]
+    }, {
+      "sourceEntryId" : "16",
+      "buildingId" : "96",
+      "edgeId" : "tt:v1:edge_80:0",
+      "connectionCoordinates" : [ 37.64076446632709, 55.6984073918225 ],
+      "wallCrossingCoordinates" : [ 37.640796346228015, 55.698400263634355 ],
+      "indoorLengthM" : 2.155255765788723,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 2.155074250911413,
+      "selectedWallDistanceM" : 2.1550742509116803,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.64077711406672, 55.698371754201126 ], [ 37.640817537925265, 55.69843167779975 ] ] ]
+    }, {
+      "sourceEntryId" : "17",
+      "buildingId" : "97",
+      "edgeId" : "tt:v1:edge_82:0",
+      "connectionCoordinates" : [ 37.639538146115, 55.6968518286392 ],
+      "wallCrossingCoordinates" : [ 37.63950667071801, 55.69680692622077 ],
+      "indoorLengthM" : 5.375120424478832,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 5.374510728046409,
+      "selectedWallDistanceM" : 5.374510728010522,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63887094884468, 55.696942847863056 ], [ 37.6396790521886, 55.69677006916223 ] ] ]
+    }, {
+      "sourceEntryId" : "3",
+      "buildingId" : "74",
+      "edgeId" : "tt:v1:edge_89:0",
+      "connectionCoordinates" : [ 37.6328466024688, 55.700275760196696 ],
+      "wallCrossingCoordinates" : [ 37.63289151624651, 55.70021746249383 ],
+      "indoorLengthM" : 7.07617572261113,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 4.948051415569616,
+      "selectedWallDistanceM" : 4.94805141563869,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63284513610866, 55.700148707792316 ], [ 37.633132660854514, 55.70057493521166 ] ] ]
+    }, {
+      "sourceEntryId" : "2",
+      "buildingId" : "77",
+      "edgeId" : "tt:v1:edge_84:0",
+      "connectionCoordinates" : [ 37.6345829261805, 55.6998544638392 ],
+      "wallCrossingCoordinates" : [ 37.63469909544441, 55.69988300506469 ],
+      "indoorLengthM" : 7.963012153927346,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 5.799401572002089,
+      "selectedWallDistanceM" : 5.853485767817306,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63467527834122, 55.6998477009505 ], [ 37.63480475064461, 55.70003961705101 ] ] ]
+    }, {
+      "sourceEntryId" : "1",
+      "buildingId" : "75",
+      "edgeId" : "tt:v1:edge_94:0",
+      "connectionCoordinates" : [ 37.6344054041544, 55.69948106445311 ],
+      "wallCrossingCoordinates" : [ 37.63445384287492, 55.69955055079978 ],
+      "indoorLengthM" : 8.311695912773493,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 8.311169004042569,
+      "selectedWallDistanceM" : 8.311169004143743,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.63424452344285, 55.69959555695699 ], [ 37.635120669599836, 55.69940717207526 ] ] ]
+    }, {
+      "sourceEntryId" : "4",
+      "buildingId" : "71",
+      "edgeId" : "tt:v1:edge_96:0",
+      "connectionCoordinates" : [ 37.6363818514204, 55.700155199014695 ],
+      "wallCrossingCoordinates" : [ 37.63640858668052, 55.70019354747772 ],
+      "indoorLengthM" : 4.587149371088196,
+      "includedInCost" : true,
+      "entryRule" : "nearest_exterior_wall_fixed",
+      "geometricNearestWallDistanceM" : 4.5868615200124685,
+      "selectedWallDistanceM" : 4.586861520246831,
+      "wallSelectionReason" : "Ближайшая наружная сторона зафиксирована для исходной точки до поиска. Остальные стены запрещены; смена стены при перепрокладке не допускается",
+      "allowedWalls" : [ [ [ 37.636288551065554, 55.70021936280051 ], [ 37.63796685602286, 55.699858406266245 ] ] ]
+    } ],
+    "originalEndpointsPreserved" : true,
+    "buildingEntriesValid" : true,
+    "depthChecked" : true,
+    "maximumSlope" : 0.0,
+    "allConnectionsRequired" : true,
+    "allConnectionsConnected" : true,
+    "routeExplanations" : [ {
+      "edgeId" : "tt:v1:edge_11:0",
+      "lengthM" : 32.373904070552015,
+      "straightDistanceM" : 25.17540312167482,
+      "detourM" : 7.1985009488771965,
+      "bendCount" : 1,
+      "turn90Count" : 1,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 25.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "Угол прямого присоединения к принимающей трубе 69,59°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_12:0",
+      "lengthM" : 19.99999999996609,
+      "straightDistanceM" : 19.99999999996609,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_16:0",
+      "lengthM" : 194.29474150887052,
+      "straightDistanceM" : 194.29474150887052,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_17:0",
+      "lengthM" : 22.204570150710502,
+      "straightDistanceM" : 22.204570150710502,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_24:0",
+      "lengthM" : 39.84635954729674,
+      "straightDistanceM" : 39.84635954729674,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_26:0",
+      "lengthM" : 34.55560554004434,
+      "straightDistanceM" : 28.97118626853815,
+      "detourM" : 5.584419271506189,
+      "bendCount" : 1,
+      "turn90Count" : 1,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 25.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "Угол прямого присоединения к принимающей трубе 12,50°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_27:0",
+      "lengthM" : 107.26001822121485,
+      "straightDistanceM" : 106.79922476447985,
+      "detourM" : 0.46079345673500427,
+      "bendCount" : 1,
+      "turn90Count" : 0,
+      "turn45Count" : 1,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 50.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "Угол прямого присоединения к принимающей трубе 0,60°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_31:0",
+      "lengthM" : 86.20745933660449,
+      "straightDistanceM" : 86.20745933660449,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_32:0",
+      "lengthM" : 28.577532337456706,
+      "straightDistanceM" : 28.492392769028697,
+      "detourM" : 0.08513956842800852,
+      "bendCount" : 1,
+      "turn90Count" : 0,
+      "turn45Count" : 1,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 50.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "Угол прямого присоединения к принимающей трубе 44,58°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_36:0",
+      "lengthM" : 10.54788986939641,
+      "straightDistanceM" : 10.54788986939641,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_37:0",
+      "lengthM" : 19.679364585790406,
+      "straightDistanceM" : 19.679364585790406,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_52:0",
+      "lengthM" : 33.44226613948395,
+      "straightDistanceM" : 24.097604008520054,
+      "detourM" : 9.344662130963894,
+      "bendCount" : 1,
+      "turn90Count" : 1,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 25.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 81: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 56,09°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_54:0",
+      "lengthM" : 25.676687088737204,
+      "straightDistanceM" : 18.19970194292782,
+      "detourM" : 7.476985145809383,
+      "bendCount" : 1,
+      "turn90Count" : 1,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 25.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 82: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 41,04°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_56:0",
+      "lengthM" : 59.70363110696674,
+      "straightDistanceM" : 59.70363110696674,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_59:0",
+      "lengthM" : 53.504627359322406,
+      "straightDistanceM" : 39.01999557279126,
+      "detourM" : 14.484631786531146,
+      "bendCount" : 1,
+      "turn90Count" : 1,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 25.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 90: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 59,17°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_61:0",
+      "lengthM" : 15.426811344986497,
+      "straightDistanceM" : 15.426811344986497,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 50.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_62:0",
+      "lengthM" : 15.42681134481634,
+      "straightDistanceM" : 15.42681134481634,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_64:0",
+      "lengthM" : 184.1826137909173,
+      "straightDistanceM" : 127.25152996217798,
+      "detourM" : 56.931083828739304,
+      "bendCount" : 3,
+      "turn90Count" : 3,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 75.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 89: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "BUILDING_INTERSECTION: 92: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 50,12°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_77:0",
+      "lengthM" : 259.514533010138,
+      "straightDistanceM" : 145.52396543834666,
+      "detourM" : 113.99056757179133,
+      "bendCount" : 5,
+      "turn90Count" : 3,
+      "turn45Count" : 2,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 175.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 88: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "BUILDING_INTERSECTION: 105: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 54,82°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_79:0",
+      "lengthM" : 113.95860524352854,
+      "straightDistanceM" : 94.31804699723325,
+      "detourM" : 19.640558246295285,
+      "bendCount" : 1,
+      "turn90Count" : 1,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 25.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 96: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 76,31°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_80:0",
+      "lengthM" : 112.05948806954777,
+      "straightDistanceM" : 100.72453153298476,
+      "detourM" : 11.334956536563013,
+      "bendCount" : 1,
+      "turn90Count" : 1,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 25.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 96: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 83,12°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_82:0",
+      "lengthM" : 130.81592818634627,
+      "straightDistanceM" : 91.56658156409256,
+      "detourM" : 39.24934662225371,
+      "bendCount" : 2,
+      "turn90Count" : 2,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 50.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 97: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 77,38°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_71:0",
+      "lengthM" : 55.29636889291658,
+      "straightDistanceM" : 55.29636889291658,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "Упрощение не принято после проверки всей сети и профиля; необходимость каждого оставшегося поворота не доказана" ]
+    }, {
+      "edgeId" : "tt:v1:edge_89:0",
+      "lengthM" : 43.041423568373105,
+      "straightDistanceM" : 42.663981508902026,
+      "detourM" : 0.377442059471079,
+      "bendCount" : 1,
+      "turn90Count" : 0,
+      "turn45Count" : 1,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 50.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "Угол прямого присоединения к принимающей трубе 46,26°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_41:0",
+      "lengthM" : 124.86136804496711,
+      "straightDistanceM" : 111.42418053321326,
+      "detourM" : 13.437187511753848,
+      "bendCount" : 2,
+      "turn90Count" : 2,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 50.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ "Угол прямого присоединения к принимающей трубе 82,59°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_84:0",
+      "lengthM" : 132.3990754766128,
+      "straightDistanceM" : 40.12360837590007,
+      "detourM" : 92.27546710071275,
+      "bendCount" : 3,
+      "turn90Count" : 2,
+      "turn45Count" : 1,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 100.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 77: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 47,38°; допустимы 0°, 45° или 90°" ]
+    }, {
+      "edgeId" : "tt:v1:edge_93:0",
+      "lengthM" : 34.36735396460559,
+      "straightDistanceM" : 34.36735396460559,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_94:0",
+      "lengthM" : 15.590449592170389,
+      "straightDistanceM" : 15.590449592170389,
+      "detourM" : 0.0,
+      "bendCount" : 0,
+      "turn90Count" : 0,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 0.0,
+      "connectionPenaltyM" : 25.0,
+      "directRouteConstraints" : [ ]
+    }, {
+      "edgeId" : "tt:v1:edge_96:0",
+      "lengthM" : 207.84623282247827,
+      "straightDistanceM" : 133.08064975744782,
+      "detourM" : 74.76558306503046,
+      "bendCount" : 3,
+      "turn90Count" : 3,
+      "turn45Count" : 0,
+      "turn135Count" : 0,
+      "turnPenaltyM" : 75.0,
+      "connectionPenaltyM" : 0.0,
+      "directRouteConstraints" : [ "BUILDING_INTERSECTION: 71: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "BUILDING_INTERSECTION: 77: разрешён только прямой конечный вход к исходной точке через разрешённый участок стены", "Угол прямого присоединения к принимающей трубе 48,54°; допустимы 0°, 45° или 90°" ]
+    } ],
+    "complexityBasis" : "Стоимость, длина, DN, спецпроходы и глубина; штрафы поворотов и присоединений: 90° — 25 условных метров, 45° — 50, 135° — 75. Штраф не включён в смету. Свойства грунта не заданы и не предполагаются"
+  } ],
+  "diagnostics" : { }
+}

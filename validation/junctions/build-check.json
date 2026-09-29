@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "version": "1.8.0-tree-junctions",
+  "buildId": "tree-junctions-20260923-r1",
+  "javaClassMajor": 55,
+  "jarBytes": 32738359,
+  "jarSha256": "3abee52b130271aeee5d46571d24a743ddb974be52cf72c6305e7efbbb3a535d",
+  "resourcesMatchSources": true,
+  "sourceMainSha256": "a56a9190c734c6355aee1be96faae8bc7158f0399cdcd7cf24649115d7d4eca0"
+}

@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "browser": "Chromium",
+  "viewports": [
+    1440,
+    390
+  ],
+  "pageErrors": [],
+  "responses": [
+    {
+      "path": "/",
+      "status": 302,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/contest.html",
+      "status": 302,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/tree-1.6.0",
+      "status": 200,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/tree-1.6.0.html",
+      "status": 200,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/tree-1.6.0.js",
+      "status": 200,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/tree-1.6.0.css",
+      "status": 200,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    },
+    {
+      "path": "/api/v1/health",
+      "status": 200,
+      "cacheControl": "no-store",
+      "build": "tree-groups-20260922-r1"
+    }
+  ],
+  "defaultStrategy": "tree",
+  "defaultLearning": true,
+  "repeatRestoredLearnedWeights": true,
+  "repeatRestoredReplay": true,
+  "repeatKeptBest": true,
+  "defaultSearchPasses": 2,
+  "groupRepair": true,
+  "singleRootComparison": true,
+  "treeLearning": {
+    "enabled": true,
+    "method": "same_state_full_network_pairwise_preferences",
+    "scope": "this_territory_and_engineering_settings",
+    "requestedSearchPasses": 2,
+    "completedSearchPasses": 2,
+    "baselineFreshScore": 2.3842137319958527,
+    "acceptedPolicyFreshScore": 2.3842137319958527,
+    "initialModelSha256": "e9b7bcb23e0c89c8e09b25666a387cbc3836f1720ee9eab234d96e38dcf45eb0",
+    "modelSha256": "e5281c2455a9a4241de0f9dc8811e19d37d29d652ec5ec483ebff30575a3ffca",
+    "modelId": "tree-preferences-u16",
+    "initialReplayPairs": 0,
+    "observedPreferencePairs": 14,
+    "newReplayPairs": 24,
+    "replayPairs": 24,
+    "replayCapacity": 1024,
+    "gradientStepsThisRun": 16,
+    "acceptedGradientStepsThisRun": 16,
+    "totalAcceptedGradientSteps": 16,
+    "acceptedModelsThisRun": 1,
+    "rejectedModelsThisRun": 0,
+    "trainingMs": 121,
+    "stopReason": "requested_passes_completed",
+    "nextRateScale": 1,
+    "updateHistory": [
+      {
+        "afterPass": 1,
+        "gradientSteps": 16,
+        "learningRate": 0.001,
+        "maximumWeightMovement": 0.25,
+        "lossBefore": 0.5270084449845326,
+        "lossAfter": 0.4965517217291783,
+        "candidateModelSha256": "e5281c2455a9a4241de0f9dc8811e19d37d29d652ec5ec483ebff30575a3ffca",
+        "validatedBySearch": true,
+        "accepted": true,
+        "reason": "complete_and_no_worse_on_this_map",
+        "validationScore": 2.3842137319958527,
+        "referenceScore": 2.3842137319958527,
+        "nextRateScale": 1
+      }
+    ],
+    "weightCount": 1089,
+    "weightDeltaL2": 0.24999999999999972,
+    "maximumWeightDelta": 0.010046289951503196,
+    "weightsChanged": true,
+    "changedWeightCount": 833,
+    "postSearchPreferencePairs": 17
+  },
+  "realCalculationConnected": 2,
+  "reportBuildId": "tree-groups-20260922-r1",
+  "legacyScriptRedirectsToNewUI": true,
+  "reportFilenameVersioned": true,
+  "geoJsonBuildId": true,
+  "wrongServerBlockedBeforeSubmission": true,
+  "wrongServerSubmissions": 0
+}

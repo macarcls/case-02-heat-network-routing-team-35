@@ -1,0 +1,2473 @@
+{
+  "input": {
+    "diagnostics": [
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "115"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "115"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "116"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "116"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "117"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "117"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "118"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "118"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "119"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "119"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "120"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "120"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "121"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "121"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "122"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "122"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "123"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "123"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "124"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "124"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "125"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "125"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "126"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "126"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "127"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "127"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "128"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "128"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "129"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "129"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "130"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "130"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "131"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "131"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "132"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "132"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "133"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "133"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "134"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "134"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "135"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "135"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "136"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "136"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "137"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "137"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "138"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "138"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "139"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "139"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "140"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "140"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "141"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "141"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "142"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "142"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "143"
+      },
+      {
+        "message": "не задан текущий flow_tph; реконструкцию нельзя оценить без допущения",
+        "severity": "error",
+        "code": "MISSING_EXISTING_FLOW",
+        "object_id": "143"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "106"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "106"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "107"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "107"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "108"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "108"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "109"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "109"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "110"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "110"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "111"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "111"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "112"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "112"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "113"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "113"
+      },
+      {
+        "message": "не задан upstream_object_id",
+        "severity": "error",
+        "code": "MISSING_UPSTREAM",
+        "object_id": "114"
+      },
+      {
+        "message": "не задан diameter",
+        "severity": "error",
+        "code": "MISSING_DIAMETER",
+        "object_id": "114"
+      },
+      {
+        "message": "для railway нет правила в приложении; сценарный режим допускает консервативный запрет",
+        "severity": "error",
+        "code": "UNSPECIFIED_RESTRICTION",
+        "object_id": "18"
+      }
+    ],
+    "strictReady": false,
+    "connectionPointCount": 17,
+    "featureCount": 144,
+    "coordinatesChanged": false
+  },
+  "inputSha256": "07921d7740c0297a63111846d4b77dfb6ccb33da65ffd7ccb14c5b2d786dd7d0",
+  "scenarioChanges": [
+    {
+      "id": "115",
+      "upstream_object_id": "117",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "116",
+      "upstream_object_id": "144",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "117",
+      "upstream_object_id": "120",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "118",
+      "upstream_object_id": "115",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "119",
+      "upstream_object_id": "118",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "120",
+      "upstream_object_id": "116",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "121",
+      "upstream_object_id": "119",
+      "diameter": 300,
+      "flow_tph": 218.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "122",
+      "upstream_object_id": "125",
+      "diameter": 300,
+      "flow_tph": 218.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "123",
+      "upstream_object_id": "107",
+      "diameter": 300,
+      "flow_tph": 218.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "124",
+      "upstream_object_id": "109",
+      "diameter": 300,
+      "flow_tph": 218.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "125",
+      "upstream_object_id": "108",
+      "diameter": 300,
+      "flow_tph": 218.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "126",
+      "upstream_object_id": "110",
+      "diameter": 300,
+      "flow_tph": 218.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "127",
+      "upstream_object_id": "106",
+      "diameter": 300,
+      "flow_tph": 218.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "128",
+      "upstream_object_id": "127",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "129",
+      "upstream_object_id": "128",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "130",
+      "upstream_object_id": "111",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "131",
+      "upstream_object_id": "130",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "132",
+      "upstream_object_id": "131",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "133",
+      "upstream_object_id": "132",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "134",
+      "upstream_object_id": "112",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "135",
+      "upstream_object_id": "134",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "136",
+      "upstream_object_id": "135",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "137",
+      "upstream_object_id": "136",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "138",
+      "upstream_object_id": "113",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "139",
+      "upstream_object_id": "138",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "140",
+      "upstream_object_id": "139",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "141",
+      "upstream_object_id": "137",
+      "diameter": 400,
+      "flow_tph": 471.55,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "142",
+      "upstream_object_id": "140",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "143",
+      "upstream_object_id": "114",
+      "diameter": 500,
+      "flow_tph": 831.7,
+      "flow_basis": "scenario_capacity_percent",
+      "topology_inferred": true
+    },
+    {
+      "id": "106",
+      "upstream_object_id": "126",
+      "diameter": 300,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "107",
+      "upstream_object_id": "124",
+      "diameter": 300,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "108",
+      "upstream_object_id": "121",
+      "diameter": 300,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "109",
+      "upstream_object_id": "122",
+      "diameter": 300,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "110",
+      "upstream_object_id": "123",
+      "diameter": 300,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "111",
+      "upstream_object_id": "129",
+      "diameter": 400,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "112",
+      "upstream_object_id": "133",
+      "diameter": 400,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "113",
+      "upstream_object_id": "141",
+      "diameter": 400,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    },
+    {
+      "id": "114",
+      "upstream_object_id": "142",
+      "diameter": 500,
+      "flow_tph": null,
+      "flow_basis": "input",
+      "topology_inferred": true
+    }
+  ],
+  "options": {
+    "existingLoadPercent": 50,
+    "dataMode": "scenario",
+    "rankingProfile": "appendix",
+    "mode": "depth",
+    "depthRuleProfile": "appendix",
+    "gridM": 20,
+    "minDepthM": 0.7,
+    "maxDepthM": 6,
+    "maxCells": 100000,
+    "candidateLimit": 8,
+    "timeLimitSeconds": 600,
+    "variantLimit": 3,
+    "allowEconomicOmission": true
+  },
+  "rulesVersion": "LCT-2026-09-16-v1.1-depth",
+  "mode": "depth",
+  "variants": [
+    {
+      "construction_cost": 216541497.46032563,
+      "chamber_construction_cost": 51000000,
+      "tie_in_cost": 20000000,
+      "reconstruction_cost": 104590082.22958696,
+      "chamber_reconstruction_cost": 10000000,
+      "unconnected_penalty": 0,
+      "calculated_cost": 402131579.68991256,
+      "new_network_length": 2005.6738256011095,
+      "reconstruction_length": 385.490338716656,
+      "length": 2391.1641643177654,
+      "score": 18.433176724270847,
+      "unconnected_oks_ids": [],
+      "rank": 1
+    },
+    {
+      "construction_cost": 185699139.6721718,
+      "chamber_construction_cost": 33000000,
+      "tie_in_cost": 10000000,
+      "reconstruction_cost": 16255755.981524492,
+      "chamber_reconstruction_cost": 5000000,
+      "unconnected_penalty": 564235000,
+      "calculated_cost": 814189895.6536963,
+      "new_network_length": 1651.5440807945547,
+      "reconstruction_length": 59.91425521262764,
+      "length": 1711.4583360071824,
+      "score": 27.93169208632504,
+      "unconnected_oks_ids": [
+        "10",
+        "15",
+        "3",
+        "6",
+        "8"
+      ],
+      "rank": 2
+    },
+    {
+      "construction_cost": 140958079.3399049,
+      "chamber_construction_cost": 20000000,
+      "tie_in_cost": 35000000,
+      "reconstruction_cost": 28257193.16503749,
+      "chamber_reconstruction_cost": 0,
+      "unconnected_penalty": 1115725000,
+      "calculated_cost": 1339940272.5049424,
+      "new_network_length": 1446.7355016343781,
+      "reconstruction_length": 104.1482589186726,
+      "length": 1550.8837605530507,
+      "score": 42.17097891179754,
+      "unconnected_oks_ids": [
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "15",
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "rank": 3
+    }
+  ],
+  "checks": [
+    {
+      "diameters": [
+        {
+          "diameter": 200,
+          "componentLengthM": 86.52311346872645,
+          "limitM": 1042,
+          "edges": [
+            "edge_3"
+          ],
+          "maximumFlowTph": 76.27,
+          "capacityTph": 152.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 150,
+          "componentLengthM": 237.80065862139568,
+          "limitM": 696,
+          "edges": [
+            "edge_6"
+          ],
+          "maximumFlowTph": 47.7,
+          "capacityTph": 65.1,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 132.4616028014407,
+          "limitM": 554,
+          "edges": [
+            "edge_14"
+          ],
+          "maximumFlowTph": 34.53,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 89.96105271687532,
+          "limitM": 554,
+          "edges": [
+            "edge_19"
+          ],
+          "maximumFlowTph": 33.14,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 200,
+          "componentLengthM": 346.7271695098874,
+          "limitM": 1042,
+          "edges": [
+            "edge_23",
+            "edge_46",
+            "edge_38",
+            "edge_56"
+          ],
+          "maximumFlowTph": 151.15,
+          "capacityTph": 152.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 17.49269144060408,
+          "limitM": 554,
+          "edges": [
+            "edge_24"
+          ],
+          "maximumFlowTph": 40,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 300,
+          "componentLengthM": 217.8900027287977,
+          "limitM": 1718,
+          "edges": [
+            "edge_28",
+            "edge_29",
+            "edge_33"
+          ],
+          "maximumFlowTph": 344.11999999999995,
+          "capacityTph": 437.4,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 28.778642850555187,
+          "limitM": 554,
+          "edges": [
+            "edge_31"
+          ],
+          "maximumFlowTph": 27.82,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 250,
+          "componentLengthM": 1.2354451862716682,
+          "limitM": 1379,
+          "edges": [
+            "edge_34"
+          ],
+          "maximumFlowTph": 257.07,
+          "capacityTph": 274.9,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 30.98321300227122,
+          "limitM": 554,
+          "edges": [
+            "edge_36"
+          ],
+          "maximumFlowTph": 26.09,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 54.55810185487751,
+          "limitM": 554,
+          "edges": [
+            "edge_41"
+          ],
+          "maximumFlowTph": 24.87,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 96.34737706032308,
+          "limitM": 419,
+          "edges": [
+            "edge_44"
+          ],
+          "maximumFlowTph": 20.63,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 295.278691716948,
+          "limitM": 554,
+          "edges": [
+            "edge_47",
+            "edge_51"
+          ],
+          "maximumFlowTph": 39.5,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 30.853622775944725,
+          "limitM": 419,
+          "edges": [
+            "edge_52",
+            "edge_54"
+          ],
+          "maximumFlowTph": 19.77,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 206.17985212837522,
+          "limitM": 554,
+          "edges": [
+            "edge_57",
+            "edge_68",
+            "edge_69"
+          ],
+          "maximumFlowTph": 38.1,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 81.36978135255337,
+          "limitM": 419,
+          "edges": [
+            "edge_59"
+          ],
+          "maximumFlowTph": 18.76,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 45.18224921923661,
+          "limitM": 419,
+          "edges": [
+            "edge_64",
+            "edge_66"
+          ],
+          "maximumFlowTph": 18.03,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 65,
+          "componentLengthM": 6.050557166025093,
+          "limitM": 245,
+          "edges": [
+            "edge_71"
+          ],
+          "maximumFlowTph": 4.08,
+          "capacityTph": 8.3,
+          "raisedForLength": false
+        }
+      ],
+      "depth": {
+        "ruleProfile": "appendix",
+        "ordinaryDepthM": 3,
+        "boundaryDepthM": 3,
+        "surfaceModel": "flat_z_zero",
+        "lengthBasis": "horizontal_plan",
+        "allowedMinimumM": 0.7,
+        "allowedMaximumM": 6,
+        "minimumDepthM": 3,
+        "maximumDepthM": 3,
+        "maximumSlope": 0,
+        "slopeLimit": 0.1,
+        "nodeContinuityValid": true,
+        "plateausValid": true,
+        "additionalDepthCost": 0,
+        "crossings": [],
+        "profiles": [
+          {
+            "edgeId": "edge_3",
+            "startNodeId": "tie_1",
+            "endNodeId": "oks_2",
+            "diameter": 200,
+            "lengthM": 86.52311346872645,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 86.52311346872645
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_6",
+            "startNodeId": "tie_4",
+            "endNodeId": "oks_5",
+            "diameter": 150,
+            "lengthM": 237.80065862139568,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 237.80065862139568
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_14",
+            "startNodeId": "ch_10",
+            "endNodeId": "oks_13",
+            "diameter": 125,
+            "lengthM": 132.4616028014407,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 132.4616028014407
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_19",
+            "startNodeId": "ch_15",
+            "endNodeId": "oks_18",
+            "diameter": 125,
+            "lengthM": 89.96105271687532,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 89.96105271687532
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_23",
+            "startNodeId": "ch_10",
+            "endNodeId": "ch_22",
+            "diameter": 200,
+            "lengthM": 133.54954648828104,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 133.54954648828104
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_24",
+            "startNodeId": "ch_22",
+            "endNodeId": "oks_8",
+            "diameter": 125,
+            "lengthM": 17.49269144060408,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 17.49269144060408
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_28",
+            "startNodeId": "tie_7",
+            "endNodeId": "ch_27",
+            "diameter": 300,
+            "lengthM": 23.595261220070384,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 23.595261220070384
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_29",
+            "startNodeId": "ch_27",
+            "endNodeId": "ch_15",
+            "diameter": 300,
+            "lengthM": 100.99919404477014,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 100.99919404477014
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_31",
+            "startNodeId": "ch_27",
+            "endNodeId": "oks_30",
+            "diameter": 125,
+            "lengthM": 28.778642850555187,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 28.778642850555187
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_33",
+            "startNodeId": "ch_15",
+            "endNodeId": "ch_32",
+            "diameter": 300,
+            "lengthM": 93.29554746395716,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 93.29554746395716
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_34",
+            "startNodeId": "ch_32",
+            "endNodeId": "ch_10",
+            "diameter": 250,
+            "lengthM": 1.2354451862716682,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 1.2354451862716682
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_36",
+            "startNodeId": "ch_32",
+            "endNodeId": "oks_35",
+            "diameter": 125,
+            "lengthM": 30.98321300227122,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 30.98321300227122
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_38",
+            "startNodeId": "ch_22",
+            "endNodeId": "ch_37",
+            "diameter": 200,
+            "lengthM": 83.20167609887017,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 83.20167609887017
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_41",
+            "startNodeId": "ch_37",
+            "endNodeId": "oks_40",
+            "diameter": 125,
+            "lengthM": 54.55810185487751,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 54.55810185487751
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_44",
+            "startNodeId": "tie_42",
+            "endNodeId": "oks_43",
+            "diameter": 100,
+            "lengthM": 96.34737706032308,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 96.34737706032308
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_46",
+            "startNodeId": "ch_10",
+            "endNodeId": "ch_45",
+            "diameter": 200,
+            "lengthM": 96.31764502800549,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 96.31764502800549
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_47",
+            "startNodeId": "ch_45",
+            "endNodeId": "oks_20",
+            "diameter": 125,
+            "lengthM": 245.72916446815515,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 245.72916446815515
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_51",
+            "startNodeId": "ch_45",
+            "endNodeId": "ch_50",
+            "diameter": 125,
+            "lengthM": 49.549527248792856,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 49.549527248792856
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_52",
+            "startNodeId": "ch_50",
+            "endNodeId": "oks_48",
+            "diameter": 100,
+            "lengthM": 1.5113992881808833,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 1.5113992881808833
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_54",
+            "startNodeId": "ch_50",
+            "endNodeId": "oks_53",
+            "diameter": 100,
+            "lengthM": 29.342223487763842,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 29.342223487763842
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_56",
+            "startNodeId": "ch_37",
+            "endNodeId": "ch_55",
+            "diameter": 200,
+            "lengthM": 33.65830189473072,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 33.65830189473072
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_57",
+            "startNodeId": "ch_55",
+            "endNodeId": "oks_25",
+            "diameter": 125,
+            "lengthM": 86.53775452683794,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 86.53775452683794
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_59",
+            "startNodeId": "ch_55",
+            "endNodeId": "oks_58",
+            "diameter": 100,
+            "lengthM": 81.36978135255337,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 81.36978135255337
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_64",
+            "startNodeId": "ch_62",
+            "endNodeId": "oks_60",
+            "diameter": 100,
+            "lengthM": 22.389071650399128,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 22.389071650399128
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_66",
+            "startNodeId": "ch_62",
+            "endNodeId": "oks_65",
+            "diameter": 100,
+            "lengthM": 22.79317756883748,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 22.79317756883748
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_68",
+            "startNodeId": "ch_55",
+            "endNodeId": "ch_67",
+            "diameter": 125,
+            "lengthM": 10.485230675150529,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 10.485230675150529
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_69",
+            "startNodeId": "ch_67",
+            "endNodeId": "ch_62",
+            "diameter": 125,
+            "lengthM": 109.15686692638673,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 109.15686692638673
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_71",
+            "startNodeId": "ch_67",
+            "endNodeId": "oks_70",
+            "diameter": 65,
+            "lengthM": 6.050557166025093,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 6.050557166025093
+              }
+            ]
+          }
+        ]
+      },
+      "bendCount": 5,
+      "rankingProfile": "appendix",
+      "maximumChamberDegree": 4,
+      "chamberDegreeLimit": 4,
+      "topologyValid": true,
+      "spatialRulesValid": true,
+      "depthChecked": true,
+      "maximumSlope": 0
+    },
+    {
+      "diameters": [
+        {
+          "diameter": 125,
+          "componentLengthM": 17.49269144060408,
+          "limitM": 554,
+          "edges": [
+            "edge_6"
+          ],
+          "maximumFlowTph": 40,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 200,
+          "componentLengthM": 180.31766371273812,
+          "limitM": 1042,
+          "edges": [
+            "edge_11",
+            "edge_15"
+          ],
+          "maximumFlowTph": 87.71000000000001,
+          "capacityTph": 152.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 30.85362268861187,
+          "limitM": 419,
+          "edges": [
+            "edge_16",
+            "edge_18"
+          ],
+          "maximumFlowTph": 19.77,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 70.07361402008566,
+          "limitM": 554,
+          "edges": [
+            "edge_20"
+          ],
+          "maximumFlowTph": 34.53,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 150,
+          "componentLengthM": 72.71644542449208,
+          "limitM": 696,
+          "edges": [
+            "edge_22"
+          ],
+          "maximumFlowTph": 47.71000000000001,
+          "capacityTph": 65.1,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 98.70163442319804,
+          "limitM": 554,
+          "edges": [
+            "edge_25",
+            "edge_27"
+          ],
+          "maximumFlowTph": 24.87,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 65,
+          "componentLengthM": 6.050557168700521,
+          "limitM": 245,
+          "edges": [
+            "edge_28"
+          ],
+          "maximumFlowTph": 4.08,
+          "capacityTph": 8.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 91.85501202609885,
+          "limitM": 419,
+          "edges": [
+            "edge_30"
+          ],
+          "maximumFlowTph": 18.76,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 250,
+          "componentLengthM": 268.6749755576235,
+          "limitM": 1379,
+          "edges": [
+            "edge_33",
+            "edge_41",
+            "edge_40"
+          ],
+          "maximumFlowTph": 215.65,
+          "capacityTph": 274.9,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 30.983213003175692,
+          "limitM": 554,
+          "edges": [
+            "edge_35"
+          ],
+          "maximumFlowTph": 26.09,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 28.7786428505328,
+          "limitM": 554,
+          "edges": [
+            "edge_43"
+          ],
+          "maximumFlowTph": 27.82,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 200,
+          "componentLengthM": 468.0497897863463,
+          "limitM": 1042,
+          "edges": [
+            "edge_45",
+            "edge_50",
+            "edge_53"
+          ],
+          "maximumFlowTph": 144.6,
+          "capacityTph": 152.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 150,
+          "componentLengthM": 154.73730000664372,
+          "limitM": 696,
+          "edges": [
+            "edge_46"
+          ],
+          "maximumFlowTph": 47.7,
+          "capacityTph": 65.1,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 132.25891868570397,
+          "limitM": 419,
+          "edges": [
+            "edge_51"
+          ],
+          "maximumFlowTph": 20.63,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        }
+      ],
+      "depth": {
+        "ruleProfile": "appendix",
+        "ordinaryDepthM": 3,
+        "boundaryDepthM": 3,
+        "surfaceModel": "flat_z_zero",
+        "lengthBasis": "horizontal_plan",
+        "allowedMinimumM": 0.7,
+        "allowedMaximumM": 6,
+        "minimumDepthM": 2.185,
+        "maximumDepthM": 3,
+        "maximumSlope": 0.10000000000000003,
+        "slopeLimit": 0.1,
+        "nodeContinuityValid": true,
+        "plateausValid": true,
+        "additionalDepthCost": 0,
+        "crossings": [
+          {
+            "edgeId": "edge_50",
+            "existingObjectId": "126",
+            "type": "heat_network",
+            "fromM": 166.2144287121098,
+            "toM": 170.2144287121098,
+            "coreFromM": 168.2144287121098,
+            "coreToM": 168.2144287121098,
+            "depthM": 2.185,
+            "position": "above",
+            "requiredClearanceM": 0.5,
+            "actualClearanceM": 0.49999999999999994,
+            "newHeightM": 0.315,
+            "existingTopM": 3,
+            "existingHeightM": 0.45,
+            "plateauLengthM": 4
+          },
+          {
+            "edgeId": "edge_53",
+            "existingObjectId": "126",
+            "type": "heat_network",
+            "fromM": 20.720967864694423,
+            "toM": 24.720967864694423,
+            "coreFromM": 22.720967864694423,
+            "coreToM": 22.720967864694423,
+            "depthM": 2.185,
+            "position": "above",
+            "requiredClearanceM": 0.5,
+            "actualClearanceM": 0.49999999999999994,
+            "newHeightM": 0.315,
+            "existingTopM": 3,
+            "existingHeightM": 0.45,
+            "plateauLengthM": 4
+          },
+          {
+            "edgeId": "edge_53",
+            "existingObjectId": "123",
+            "type": "heat_network",
+            "fromM": 24.31779884288982,
+            "toM": 28.31779884288982,
+            "coreFromM": 26.31779884288982,
+            "coreToM": 26.31779884288982,
+            "depthM": 2.185,
+            "position": "above",
+            "requiredClearanceM": 0.5,
+            "actualClearanceM": 0.49999999999999994,
+            "newHeightM": 0.315,
+            "existingTopM": 3,
+            "existingHeightM": 0.45,
+            "plateauLengthM": 4
+          }
+        ],
+        "profiles": [
+          {
+            "edgeId": "edge_6",
+            "startNodeId": "ch_4",
+            "endNodeId": "oks_2",
+            "diameter": 125,
+            "lengthM": 17.49269144060408,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 17.49269144060408
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_11",
+            "startNodeId": "ch_9",
+            "endNodeId": "ch_4",
+            "diameter": 200,
+            "lengthM": 84.00001884572691,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 84.00001884572691
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_15",
+            "startNodeId": "ch_9",
+            "endNodeId": "ch_14",
+            "diameter": 200,
+            "lengthM": 96.31764486701121,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 96.31764486701121
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_16",
+            "startNodeId": "ch_14",
+            "endNodeId": "oks_12",
+            "diameter": 100,
+            "lengthM": 29.342223492721192,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 29.342223492721192
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_18",
+            "startNodeId": "ch_14",
+            "endNodeId": "oks_17",
+            "diameter": 100,
+            "lengthM": 1.5113991958906774,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 1.5113991958906774
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_20",
+            "startNodeId": "ch_14",
+            "endNodeId": "oks_19",
+            "diameter": 125,
+            "lengthM": 70.07361402008566,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 70.07361402008566
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_22",
+            "startNodeId": "ch_4",
+            "endNodeId": "ch_21",
+            "diameter": 150,
+            "lengthM": 72.71644542449208,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 72.71644542449208
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_25",
+            "startNodeId": "ch_21",
+            "endNodeId": "oks_24",
+            "diameter": 125,
+            "lengthM": 65.043332528423,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 65.043332528423
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_27",
+            "startNodeId": "ch_21",
+            "endNodeId": "ch_26",
+            "diameter": 125,
+            "lengthM": 33.65830189477505,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 33.65830189477505
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_28",
+            "startNodeId": "ch_26",
+            "endNodeId": "oks_7",
+            "diameter": 65,
+            "lengthM": 6.050557168700521,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 6.050557168700521
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_30",
+            "startNodeId": "ch_26",
+            "endNodeId": "oks_29",
+            "diameter": 100,
+            "lengthM": 91.85501202609885,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 91.85501202609885
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_33",
+            "startNodeId": "ch_31",
+            "endNodeId": "ch_9",
+            "diameter": 250,
+            "lengthM": 50.784972829237674,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 50.784972829237674
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_35",
+            "startNodeId": "ch_31",
+            "endNodeId": "oks_34",
+            "diameter": 125,
+            "lengthM": 30.983213003175692,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 30.983213003175692
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_40",
+            "startNodeId": "tie_1",
+            "endNodeId": "ch_39",
+            "diameter": 250,
+            "lengthM": 23.595261220070384,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 23.595261220070384
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_41",
+            "startNodeId": "ch_39",
+            "endNodeId": "ch_31",
+            "diameter": 250,
+            "lengthM": 194.2947415083154,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 194.2947415083154
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_43",
+            "startNodeId": "ch_39",
+            "endNodeId": "oks_42",
+            "diameter": 125,
+            "lengthM": 28.7786428505328,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 28.7786428505328
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_45",
+            "startNodeId": "tie_36",
+            "endNodeId": "ch_44",
+            "diameter": 200,
+            "lengthM": 156.2349226853765,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 156.2349226853765
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_46",
+            "startNodeId": "ch_44",
+            "endNodeId": "oks_37",
+            "diameter": 150,
+            "lengthM": 154.73730000664372,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 154.73730000664372
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_50",
+            "startNodeId": "ch_44",
+            "endNodeId": "ch_49",
+            "diameter": 200,
+            "lengthM": 176.0717034253133,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 158.0644287121098
+              },
+              {
+                "depthM": 2.185,
+                "distanceM": 166.2144287121098
+              },
+              {
+                "depthM": 2.185,
+                "distanceM": 170.2144287121098
+              },
+              {
+                "depthM": 2.770727471320351,
+                "distanceM": 176.0717034253133
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_51",
+            "startNodeId": "ch_49",
+            "endNodeId": "oks_47",
+            "diameter": 100,
+            "lengthM": 132.25891868570397,
+            "stations": [
+              {
+                "depthM": 2.770727471320351,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 2.2927252867964887
+              },
+              {
+                "depthM": 3,
+                "distanceM": 132.25891868570397
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_53",
+            "startNodeId": "ch_49",
+            "endNodeId": "oks_52",
+            "diameter": 200,
+            "lengthM": 135.7431636756565,
+            "stations": [
+              {
+                "depthM": 2.770727471320351,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 2.2927252867964887
+              },
+              {
+                "depthM": 3,
+                "distanceM": 12.570967864694422
+              },
+              {
+                "depthM": 2.185,
+                "distanceM": 20.720967864694423
+              },
+              {
+                "depthM": 2.185,
+                "distanceM": 28.31779884288982
+              },
+              {
+                "depthM": 3,
+                "distanceM": 36.46779884288982
+              },
+              {
+                "depthM": 3,
+                "distanceM": 135.7431636756565
+              }
+            ]
+          }
+        ]
+      },
+      "bendCount": 3,
+      "rankingProfile": "appendix",
+      "maximumChamberDegree": 4,
+      "chamberDegreeLimit": 4,
+      "topologyValid": true,
+      "spatialRulesValid": true,
+      "depthChecked": true,
+      "maximumSlope": 0.10000000000000003
+    },
+    {
+      "diameters": [
+        {
+          "diameter": 200,
+          "componentLengthM": 86.52311346872645,
+          "limitM": 1042,
+          "edges": [
+            "edge_3"
+          ],
+          "maximumFlowTph": 76.27,
+          "capacityTph": 152.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 150,
+          "componentLengthM": 237.80065862139568,
+          "limitM": 696,
+          "edges": [
+            "edge_6"
+          ],
+          "maximumFlowTph": 47.7,
+          "capacityTph": 65.1,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 370.1676858439545,
+          "limitM": 554,
+          "edges": [
+            "edge_9"
+          ],
+          "maximumFlowTph": 40,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 40.699147026149326,
+          "limitM": 554,
+          "edges": [
+            "edge_12"
+          ],
+          "maximumFlowTph": 27.82,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 217.2280090520913,
+          "limitM": 554,
+          "edges": [
+            "edge_15"
+          ],
+          "maximumFlowTph": 26.09,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 96.34737706032308,
+          "limitM": 419,
+          "edges": [
+            "edge_18"
+          ],
+          "maximumFlowTph": 20.63,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 100,
+          "componentLengthM": 397.9695105617378,
+          "limitM": 419,
+          "edges": [
+            "edge_21"
+          ],
+          "maximumFlowTph": 18.76,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        }
+      ],
+      "depth": {
+        "ruleProfile": "appendix",
+        "ordinaryDepthM": 3,
+        "boundaryDepthM": 3,
+        "surfaceModel": "flat_z_zero",
+        "lengthBasis": "horizontal_plan",
+        "allowedMinimumM": 0.7,
+        "allowedMaximumM": 6,
+        "minimumDepthM": 3,
+        "maximumDepthM": 3,
+        "maximumSlope": 0,
+        "slopeLimit": 0.1,
+        "nodeContinuityValid": true,
+        "plateausValid": true,
+        "additionalDepthCost": 0,
+        "crossings": [],
+        "profiles": [
+          {
+            "edgeId": "edge_3",
+            "startNodeId": "tie_1",
+            "endNodeId": "oks_2",
+            "diameter": 200,
+            "lengthM": 86.52311346872645,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 86.52311346872645
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_6",
+            "startNodeId": "tie_4",
+            "endNodeId": "oks_5",
+            "diameter": 150,
+            "lengthM": 237.80065862139568,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 237.80065862139568
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_9",
+            "startNodeId": "tie_7",
+            "endNodeId": "oks_8",
+            "diameter": 125,
+            "lengthM": 370.1676858439545,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 370.1676858439545
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_12",
+            "startNodeId": "tie_10",
+            "endNodeId": "oks_11",
+            "diameter": 125,
+            "lengthM": 40.699147026149326,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 40.699147026149326
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_15",
+            "startNodeId": "tie_13",
+            "endNodeId": "oks_14",
+            "diameter": 125,
+            "lengthM": 217.2280090520913,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 217.2280090520913
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_18",
+            "startNodeId": "tie_16",
+            "endNodeId": "oks_17",
+            "diameter": 100,
+            "lengthM": 96.34737706032308,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 96.34737706032308
+              }
+            ]
+          },
+          {
+            "edgeId": "edge_21",
+            "startNodeId": "tie_19",
+            "endNodeId": "oks_20",
+            "diameter": 100,
+            "lengthM": 397.9695105617378,
+            "stations": [
+              {
+                "depthM": 3,
+                "distanceM": 0
+              },
+              {
+                "depthM": 3,
+                "distanceM": 397.9695105617378
+              }
+            ]
+          }
+        ]
+      },
+      "bendCount": 5,
+      "rankingProfile": "appendix",
+      "maximumChamberDegree": 3,
+      "chamberDegreeLimit": 4,
+      "topologyValid": true,
+      "spatialRulesValid": true,
+      "depthChecked": true,
+      "maximumSlope": 0
+    }
+  ],
+  "diagnostics": {
+    "v2:15": "Превышена предельная длина компоненты DN150; повышение более одной номенклатуры запрещено",
+    "v2:6": "ECONOMIC_OMISSION: подключение с учётом реконструкции хуже варианта со штрафом по выбранной формуле",
+    "v2:8": "ECONOMIC_OMISSION: подключение с учётом реконструкции хуже варианта со штрафом по выбранной формуле",
+    "v2:3": "ECONOMIC_OMISSION: подключение с учётом реконструкции хуже варианта со штрафом по выбранной формуле",
+    "v2:10": "ECONOMIC_OMISSION: подключение с учётом реконструкции хуже варианта со штрафом по выбранной формуле",
+    "v3:9": "Пересечение новых участков вне общего узла",
+    "v3:10": "Пересечение новых участков вне общего узла",
+    "v3:15": "Превышена предельная длина компоненты DN150; повышение более одной номенклатуры запрещено",
+    "v3:3": "ECONOMIC_OMISSION: подключение с учётом реконструкции хуже варианта со штрафом по выбранной формуле",
+    "v3:1": "ECONOMIC_OMISSION: подключение с учётом реконструкции хуже варианта со штрафом по выбранной формуле",
+    "v3:13": "Пересечение новых участков вне общего узла",
+    "v3:14": "Пересечение новых участков вне общего узла",
+    "v3:8": "Превышена предельная длина компоненты DN125; повышение более одной номенклатуры запрещено",
+    "v3:6": "ECONOMIC_OMISSION: подключение с учётом реконструкции хуже варианта со штрафом по выбранной формуле",
+    "v3:11": "Коридор не найден в пределах бюджета автоматического поиска"
+  },
+  "timeLimited": false,
+  "elapsedMs": 19655,
+  "outputBytes": 49378,
+  "algorithm": "Три порядка жадного построения леса. Для каждого подключения сравниваются отдельные врезки и присоединение к новым ветвям; каждый кандидат полностью пересчитывается. A* со состоянием направления; точные векторные проверки после выбора диаметра. Глобальный минимум не гарантируется.",
+  "assumptions": [
+    "Вес стоимости по умолчанию 0,7, длины 0,3 согласно явной формуле приложения. В протоколе порядок весов иной; профиль protocol переключает веса.",
+    "Участок одного DN проверяется как связная компонента с суммой длин всех ветвей. Допускается одно повышение номенклатуры.",
+    "При наложении спецпроходов берётся максимальный коэффициент.",
+    "Точки подключения не смещаются. Контуры перспективных ОКС не участвуют в трассировке.",
+    "Внутренние повороты трасс — 90 градусов; прямые отрезки могут иметь произвольный азимут. Цена нестандартного отвода не требуется.",
+    "Профиль глубины непрерывный, без сетки 0,5 м; рельеф Z=0. Глубина до верха труб, Z=-h. Врезки и вводы закреплены на 3 м; общий узел имеет единую глубину.",
+    "depthRuleProfile=appendix использует табличные вертикальные просветы; protocol увеличивает их до max(0,7, табличный). Минимальное покрытие 0,7 м сохраняется в обоих профилях.",
+    "Длина и стоимость считаются по горизонтальной проекции. Коэффициент глубины применяется только к новой сети.",
+    "Профиль строится на найденном плане, полного поиска в пространстве XYZ нет. Переход, чьи обязательные подходы выходят за ребро графа, отклоняется; автоматического переноса площадки через камеру пока нет."
+  ]
+}

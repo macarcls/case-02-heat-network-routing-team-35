@@ -1,0 +1,35 @@
+server:
+  port: 8080
+  tomcat:
+    threads:
+      max: 100
+    max-swallow-size: -1
+spring:
+  flyway:
+    locations: classpath:migrations
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/teplotrassa}
+    username: ${DATABASE_USER:teplotrassa}
+    password: ${DATABASE_PASSWORD:teplotrassa_local}
+    hikari:
+      maximum-pool-size: 16
+  servlet:
+    multipart:
+      max-file-size: 3GB
+      max-request-size: 3100MB
+      file-size-threshold: 0
+  mvc:
+    async:
+      request-timeout: 3600000
+  jackson:
+    deserialization:
+      fail-on-trailing-tokens: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+teplotrassa:
+  storage: ${DATA_DIR:./data}
+  workers: ${CALCULATION_WORKERS:2}
+  queue-capacity: 100

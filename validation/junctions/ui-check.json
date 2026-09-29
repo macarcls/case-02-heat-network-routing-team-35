@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "health": {
+    "maxOutputBytes": 524288000,
+    "maxUploadBytes": 3221225472,
+    "rulesVersion": "LCT-2026-09-21-v1.3-experience",
+    "uiPath": "/tree-1.8.0",
+    "version": "1.8.0-tree-junctions",
+    "buildId": "tree-junctions-20260923-r1"
+  },
+  "realCalculation": true,
+  "newOptionEnabled": true,
+  "newDiagnosticsRendered": true,
+  "oldRouteRedirect": true,
+  "staleBackendDetected": true,
+  "noStore": true,
+  "mobileOverflow": false,
+  "consoleErrors": []
+}

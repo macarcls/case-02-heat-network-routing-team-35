@@ -1,0 +1,1301 @@
+{
+  "application": {
+    "uiPath": "/tree-1.8.0",
+    "version": "1.8.0-tree-junctions",
+    "buildId": "tree-junctions-20260923-r1"
+  },
+  "input": {
+    "diagnostics": [],
+    "strictReady": true,
+    "connectionPointCount": 2,
+    "featureCount": 6,
+    "coordinatesChanged": false
+  },
+  "inputSha256": "9bec6de113f529a39b439df72ab77f1aff67746898cebc8a7c0f441000ffe81e",
+  "scenarioChanges": [],
+  "options": {
+    "existingLoadPercent": 50,
+    "dataMode": "scenario",
+    "rankingProfile": "appendix",
+    "mode": "depth",
+    "depthRuleProfile": "appendix",
+    "neuralGuidance": "baseline",
+    "routingStrategy": "tree",
+    "gridM": 20,
+    "minDepthM": 0.7,
+    "maxDepthM": 6,
+    "maxCells": 100000,
+    "candidateLimit": 3,
+    "variantLimit": 3,
+    "rlEpisodes": 13,
+    "treeBeamWidth": 5,
+    "treeExpansion": 3,
+    "treeRepairPasses": 2,
+    "treeRepairCandidates": 8,
+    "treeGraphMaxNodes": 8000,
+    "treeLearning": false,
+    "treeSingleRootRequired": true,
+    "treeJunctionRepair": true,
+    "treeGroupRepair": false,
+    "treeSingleRootTrial": true,
+    "treeResumeFromBest": true,
+    "treeLearningRounds": 2,
+    "treeTrainingSteps": 16,
+    "treeTrainingRate": 0.001,
+    "rlSeed": 71,
+    "rlTemperature": 0.7,
+    "rlLearning": false,
+    "rlRemember": true,
+    "rlBatchSize": 4,
+    "rlLearningRate": 0.003
+  },
+  "rulesVersion": "LCT-2026-09-21-v1.3-experience",
+  "mode": "depth",
+  "ranking": {
+    "score_direction": "lower_is_better",
+    "rating_basis": "best_complete_variant",
+    "rating_scale": 100,
+    "reference_score": 2.4960977719958652,
+    "rating_direction": "higher_is_better"
+  },
+  "routingQuality": {
+    "turn90EquivalentM": 25,
+    "turn135EquivalentM": 75,
+    "turn45EquivalentM": 50,
+    "includedInMonetaryCost": false
+  },
+  "variants": [
+    {
+      "indoor_connection_length": 0,
+      "tie_in_count": 1,
+      "construction_cost": 17097998.999933403,
+      "chamber_construction_cost": 6000000,
+      "tie_in_cost": 5000000,
+      "reconstruction_cost": 19798350,
+      "chamber_reconstruction_cost": 0,
+      "connection_complete": true,
+      "required_connection_count": 2,
+      "connected_connection_count": 2,
+      "unconnected_entry_ids": [],
+      "calculated_cost": 47896348.99993341,
+      "new_network_length": 179.9999999992433,
+      "new_pipe_material_length": 359.9999999984866,
+      "reconstruction_length": 130,
+      "length": 309.9999999992433,
+      "score": 2.4960977719958652,
+      "base_score": 2.271097771995865,
+      "turn_penalty_m": 75,
+      "turn_penalty_score": 0.225,
+      "ranking_length": 384.9999999992433,
+      "turn_90_count": 3,
+      "turn_45_count": 0,
+      "turn_135_count": 0,
+      "other_turn_count": 0,
+      "connection_turn_count": 2,
+      "unconnected_oks_ids": [],
+      "bend_count": 1,
+      "weighted_construction_length": 181.95999999924328,
+      "special_passage_length": 8,
+      "construction_complexity_factor": 1.0108888888889345,
+      "routing_strategy": "tree",
+      "source": "corridor_tree",
+      "source_attempt": 6,
+      "rank": 1,
+      "rating": 100
+    },
+    {
+      "indoor_connection_length": 0,
+      "tie_in_count": 1,
+      "construction_cost": 17097998.999933403,
+      "chamber_construction_cost": 6000000,
+      "tie_in_cost": 5000000,
+      "reconstruction_cost": 24367199.999858163,
+      "chamber_reconstruction_cost": 0,
+      "connection_complete": true,
+      "required_connection_count": 2,
+      "connected_connection_count": 2,
+      "unconnected_entry_ids": [],
+      "calculated_cost": 52465198.99979156,
+      "new_network_length": 179.9999999992433,
+      "new_pipe_material_length": 359.9999999984866,
+      "reconstruction_length": 159.99999999906868,
+      "length": 339.999999998312,
+      "score": 2.6390255719890994,
+      "base_score": 2.4890255719890995,
+      "turn_penalty_m": 50,
+      "turn_penalty_score": 0.15,
+      "ranking_length": 389.999999998312,
+      "turn_90_count": 2,
+      "turn_45_count": 0,
+      "turn_135_count": 0,
+      "other_turn_count": 0,
+      "connection_turn_count": 2,
+      "unconnected_oks_ids": [],
+      "bend_count": 0,
+      "weighted_construction_length": 181.95999999924328,
+      "special_passage_length": 8,
+      "construction_complexity_factor": 1.0108888888889345,
+      "routing_strategy": "tree",
+      "source": "corridor_tree",
+      "source_attempt": 1,
+      "rank": 2,
+      "rating": 94.5840691537708
+    }
+  ],
+  "checks": [
+    {
+      "singleRootRequired": true,
+      "rootPolicyValid": true,
+      "diameters": [
+        {
+          "diameter": 100,
+          "componentLengthM": 79.99999999906868,
+          "limitM": 419,
+          "edges": [
+            "corridor_1",
+            "corridor_2"
+          ],
+          "maximumFlowTph": 20,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 100.00000000017462,
+          "limitM": 554,
+          "edges": [
+            "corridor_3"
+          ],
+          "maximumFlowTph": 40,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        }
+      ],
+      "depth": {
+        "ruleProfile": "appendix",
+        "ordinaryDepthM": 3,
+        "boundaryDepthM": 3,
+        "surfaceModel": "flat_z_zero",
+        "lengthBasis": "horizontal_plan",
+        "allowedMinimumM": 0.7,
+        "allowedMaximumM": 6,
+        "minimumDepthM": 1.975,
+        "maximumDepthM": 3.4,
+        "maximumSlope": 0.10000000000000005,
+        "slopeLimit": 0.1,
+        "nodeContinuityValid": true,
+        "plateausValid": true,
+        "additionalDepthCost": 35019.00000000003,
+        "crossings": [
+          {
+            "edgeId": "corridor_3",
+            "existingObjectId": "gas",
+            "type": "gas_pipeline",
+            "fromM": 4.9999999999417915,
+            "toM": 8.999999999941792,
+            "coreFromM": 6.9999999999417915,
+            "coreToM": 6.9999999999417915,
+            "depthM": 3.4,
+            "position": "below",
+            "requiredClearanceM": 0.2,
+            "actualClearanceM": 0.20000000000000007,
+            "newHeightM": 0.225,
+            "existingTopM": 2.8,
+            "existingHeightM": 0.4,
+            "plateauLengthM": 4.000000000000001
+          },
+          {
+            "edgeId": "corridor_3",
+            "existingObjectId": "cable",
+            "type": "power_cable",
+            "fromM": 48.00000000011641,
+            "toM": 52.00000000011641,
+            "coreFromM": 50.00000000011641,
+            "coreToM": 50.00000000011641,
+            "depthM": 1.975,
+            "position": "above",
+            "requiredClearanceM": 0.5,
+            "actualClearanceM": 0.5000000000000001,
+            "newHeightM": 0.225,
+            "existingTopM": 2.7,
+            "existingHeightM": 0.2,
+            "plateauLengthM": 4
+          }
+        ],
+        "profiles": [
+          {
+            "edgeId": "corridor_1",
+            "startNodeId": "grid_135",
+            "endNodeId": "entry_1",
+            "diameter": 100,
+            "lengthM": 49.99999999906868,
+            "stations": [
+              {
+                "distanceM": 0,
+                "depthM": 3
+              },
+              {
+                "distanceM": 49.99999999906868,
+                "depthM": 3
+              }
+            ]
+          },
+          {
+            "edgeId": "corridor_2",
+            "startNodeId": "grid_135",
+            "endNodeId": "entry_0",
+            "diameter": 100,
+            "lengthM": 30,
+            "stations": [
+              {
+                "distanceM": 0,
+                "depthM": 3
+              },
+              {
+                "distanceM": 30,
+                "depthM": 3
+              }
+            ]
+          },
+          {
+            "edgeId": "corridor_3",
+            "startNodeId": "grid_261",
+            "endNodeId": "grid_135",
+            "diameter": 125,
+            "lengthM": 100.00000000017462,
+            "stations": [
+              {
+                "distanceM": 0,
+                "depthM": 3
+              },
+              {
+                "distanceM": 0.9999999999417941,
+                "depthM": 3
+              },
+              {
+                "distanceM": 4.9999999999417915,
+                "depthM": 3.4
+              },
+              {
+                "distanceM": 8.999999999941792,
+                "depthM": 3.4
+              },
+              {
+                "distanceM": 12.999999999941792,
+                "depthM": 3
+              },
+              {
+                "distanceM": 37.75000000011641,
+                "depthM": 3
+              },
+              {
+                "distanceM": 48.00000000011641,
+                "depthM": 1.975
+              },
+              {
+                "distanceM": 52.00000000011641,
+                "depthM": 1.975
+              },
+              {
+                "distanceM": 62.25000000011641,
+                "depthM": 3
+              },
+              {
+                "distanceM": 100.00000000017462,
+                "depthM": 3
+              }
+            ]
+          }
+        ]
+      },
+      "bendCount": 1,
+      "turnPenalty": {
+        "equivalentM": 75,
+        "turn45EquivalentM": 50,
+        "includedInMonetaryCost": false,
+        "turn90EquivalentM": 25,
+        "includesConnections": true,
+        "turn135EquivalentM": 75
+      },
+      "rankingProfile": "appendix",
+      "maximumChamberDegree": 3,
+      "chamberDegreeLimit": 4,
+      "topologyValid": true,
+      "spatialRulesValid": true,
+      "buildingIntersectionsValid": true,
+      "permittedBuildingEntries": [],
+      "originalEndpointsPreserved": true,
+      "buildingEntriesValid": true,
+      "depthChecked": true,
+      "maximumSlope": 0.10000000000000005,
+      "allConnectionsRequired": true,
+      "allConnectionsConnected": true,
+      "routeExplanations": [
+        {
+          "edgeId": "corridor_1",
+          "lengthM": 49.99999999906868,
+          "straightDistanceM": 36.05551275386499,
+          "detourM": 13.944487245203689,
+          "bendCount": 1,
+          "turn90Count": 1,
+          "turn45Count": 0,
+          "turn135Count": 0,
+          "turnPenaltyM": 25,
+          "connectionPenaltyM": 0,
+          "directRouteConstraints": [
+            "Угол прямого присоединения к принимающей трубе 56,31°; допустимы 0°, 45° или 90°"
+          ]
+        },
+        {
+          "edgeId": "corridor_2",
+          "lengthM": 30,
+          "straightDistanceM": 30,
+          "detourM": 0,
+          "bendCount": 0,
+          "turn90Count": 0,
+          "turn45Count": 0,
+          "turn135Count": 0,
+          "turnPenaltyM": 0,
+          "connectionPenaltyM": 25,
+          "directRouteConstraints": []
+        },
+        {
+          "edgeId": "corridor_3",
+          "lengthM": 100.00000000017462,
+          "straightDistanceM": 100.00000000017462,
+          "detourM": 0,
+          "bendCount": 0,
+          "turn90Count": 0,
+          "turn45Count": 0,
+          "turn135Count": 0,
+          "turnPenaltyM": 0,
+          "connectionPenaltyM": 25,
+          "directRouteConstraints": []
+        }
+      ],
+      "complexityBasis": "Стоимость, длина, DN, спецпроходы и глубина; штрафы поворотов и присоединений: 90° — 25 условных метров, 45° — 50, 135° — 75. Штраф не включён в смету. Свойства грунта не заданы и не предполагаются"
+    },
+    {
+      "singleRootRequired": true,
+      "rootPolicyValid": true,
+      "diameters": [
+        {
+          "diameter": 100,
+          "componentLengthM": 79.99999999906868,
+          "limitM": 419,
+          "edges": [
+            "corridor_1",
+            "corridor_2"
+          ],
+          "maximumFlowTph": 20,
+          "capacityTph": 22.3,
+          "raisedForLength": false
+        },
+        {
+          "diameter": 125,
+          "componentLengthM": 100.00000000017462,
+          "limitM": 554,
+          "edges": [
+            "corridor_3"
+          ],
+          "maximumFlowTph": 40,
+          "capacityTph": 40.2,
+          "raisedForLength": false
+        }
+      ],
+      "depth": {
+        "ruleProfile": "appendix",
+        "ordinaryDepthM": 3,
+        "boundaryDepthM": 3,
+        "surfaceModel": "flat_z_zero",
+        "lengthBasis": "horizontal_plan",
+        "allowedMinimumM": 0.7,
+        "allowedMaximumM": 6,
+        "minimumDepthM": 1.975,
+        "maximumDepthM": 3.4,
+        "maximumSlope": 0.10000000000000005,
+        "slopeLimit": 0.1,
+        "nodeContinuityValid": true,
+        "plateausValid": true,
+        "additionalDepthCost": 35019.00000000003,
+        "crossings": [
+          {
+            "edgeId": "corridor_3",
+            "existingObjectId": "gas",
+            "type": "gas_pipeline",
+            "fromM": 4.9999999999417915,
+            "toM": 8.999999999941792,
+            "coreFromM": 6.9999999999417915,
+            "coreToM": 6.9999999999417915,
+            "depthM": 3.4,
+            "position": "below",
+            "requiredClearanceM": 0.2,
+            "actualClearanceM": 0.20000000000000007,
+            "newHeightM": 0.225,
+            "existingTopM": 2.8,
+            "existingHeightM": 0.4,
+            "plateauLengthM": 4.000000000000001
+          },
+          {
+            "edgeId": "corridor_3",
+            "existingObjectId": "cable",
+            "type": "power_cable",
+            "fromM": 48.00000000011641,
+            "toM": 52.00000000011641,
+            "coreFromM": 50.00000000011641,
+            "coreToM": 50.00000000011641,
+            "depthM": 1.975,
+            "position": "above",
+            "requiredClearanceM": 0.5,
+            "actualClearanceM": 0.5000000000000001,
+            "newHeightM": 0.225,
+            "existingTopM": 2.7,
+            "existingHeightM": 0.2,
+            "plateauLengthM": 4
+          }
+        ],
+        "profiles": [
+          {
+            "edgeId": "corridor_1",
+            "startNodeId": "grid_130",
+            "endNodeId": "entry_1",
+            "diameter": 100,
+            "lengthM": 20,
+            "stations": [
+              {
+                "distanceM": 0,
+                "depthM": 3
+              },
+              {
+                "distanceM": 20,
+                "depthM": 3
+              }
+            ]
+          },
+          {
+            "edgeId": "corridor_2",
+            "startNodeId": "grid_130",
+            "endNodeId": "entry_0",
+            "diameter": 100,
+            "lengthM": 59.99999999906868,
+            "stations": [
+              {
+                "distanceM": 0,
+                "depthM": 3
+              },
+              {
+                "distanceM": 59.99999999906868,
+                "depthM": 3
+              }
+            ]
+          },
+          {
+            "edgeId": "corridor_3",
+            "startNodeId": "grid_249",
+            "endNodeId": "grid_130",
+            "diameter": 125,
+            "lengthM": 100.00000000017462,
+            "stations": [
+              {
+                "distanceM": 0,
+                "depthM": 3
+              },
+              {
+                "distanceM": 0.9999999999417941,
+                "depthM": 3
+              },
+              {
+                "distanceM": 4.9999999999417915,
+                "depthM": 3.4
+              },
+              {
+                "distanceM": 8.999999999941792,
+                "depthM": 3.4
+              },
+              {
+                "distanceM": 12.999999999941792,
+                "depthM": 3
+              },
+              {
+                "distanceM": 37.75000000011641,
+                "depthM": 3
+              },
+              {
+                "distanceM": 48.00000000011641,
+                "depthM": 1.975
+              },
+              {
+                "distanceM": 52.00000000011641,
+                "depthM": 1.975
+              },
+              {
+                "distanceM": 62.25000000011641,
+                "depthM": 3
+              },
+              {
+                "distanceM": 100.00000000017462,
+                "depthM": 3
+              }
+            ]
+          }
+        ]
+      },
+      "bendCount": 0,
+      "turnPenalty": {
+        "equivalentM": 50,
+        "turn45EquivalentM": 50,
+        "includedInMonetaryCost": false,
+        "turn90EquivalentM": 25,
+        "includesConnections": true,
+        "turn135EquivalentM": 75
+      },
+      "rankingProfile": "appendix",
+      "maximumChamberDegree": 3,
+      "chamberDegreeLimit": 4,
+      "topologyValid": true,
+      "spatialRulesValid": true,
+      "buildingIntersectionsValid": true,
+      "permittedBuildingEntries": [],
+      "originalEndpointsPreserved": true,
+      "buildingEntriesValid": true,
+      "depthChecked": true,
+      "maximumSlope": 0.10000000000000005,
+      "allConnectionsRequired": true,
+      "allConnectionsConnected": true,
+      "routeExplanations": [
+        {
+          "edgeId": "corridor_1",
+          "lengthM": 20,
+          "straightDistanceM": 20,
+          "detourM": 0,
+          "bendCount": 0,
+          "turn90Count": 0,
+          "turn45Count": 0,
+          "turn135Count": 0,
+          "turnPenaltyM": 0,
+          "connectionPenaltyM": 0,
+          "directRouteConstraints": []
+        },
+        {
+          "edgeId": "corridor_2",
+          "lengthM": 59.99999999906868,
+          "straightDistanceM": 59.99999999906868,
+          "detourM": 0,
+          "bendCount": 0,
+          "turn90Count": 0,
+          "turn45Count": 0,
+          "turn135Count": 0,
+          "turnPenaltyM": 0,
+          "connectionPenaltyM": 25,
+          "directRouteConstraints": []
+        },
+        {
+          "edgeId": "corridor_3",
+          "lengthM": 100.00000000017462,
+          "straightDistanceM": 100.00000000017462,
+          "detourM": 0,
+          "bendCount": 0,
+          "turn90Count": 0,
+          "turn45Count": 0,
+          "turn135Count": 0,
+          "turnPenaltyM": 0,
+          "connectionPenaltyM": 25,
+          "directRouteConstraints": []
+        }
+      ],
+      "complexityBasis": "Стоимость, длина, DN, спецпроходы и глубина; штрафы поворотов и присоединений: 90° — 25 условных метров, 45° — 50, 135° — 75. Штраф не включён в смету. Свойства грунта не заданы и не предполагаются"
+    }
+  ],
+  "diagnostics": {},
+  "search": {
+    "buildingEntryPolicy": "nearest_exterior_wall_fixed",
+    "entryAssignments": [],
+    "treeSearch": {
+      "graph": {
+        "gridNodes": 304,
+        "freeNodes": 304,
+        "candidateEdges": 1113,
+        "skeletonEdges": 48,
+        "removedCandidateEdges": 1065,
+        "components": 1,
+        "anchorNodes": 5,
+        "spacingM": 20,
+        "role": "advisory_corridor_ranking_and_remaining_cost",
+        "exactRoutesRevalidated": true,
+        "pruning": "minimum_spanning_forest_then_nonterminal_leaf_removal",
+        "diffusionModelUsed": false,
+        "globalOptimalityProven": false
+      },
+      "beamWidth": 5,
+      "expansionPerTree": 3,
+      "policyModelId": "reinforce-exact-engine-2026-09-20-u60",
+      "policyModelSha256": "e9b7bcb23e0c89c8e09b25666a387cbc3836f1720ee9eab234d96e38dcf45eb0",
+      "trainingDuringCalculation": false,
+      "diffusionModelUsed": false,
+      "selection": "exact_partial_score_plus_advisory_remaining_estimate",
+      "searchVersion": "joint-junctions-1.8.0",
+      "singleRootRequired": true,
+      "rootSelection": {
+        "checkedLocations": 3,
+        "entranceCompatibleLocations": 3,
+        "rejectedLocations": [],
+        "selectedLocations": [
+          {
+            "existingId": "old",
+            "coordinates": [
+              37.599967825356785,
+              55.750898262719176
+            ],
+            "axisDegrees": 90.00000001667527,
+            "blockedEntryIds": [],
+            "entranceCompatible": true,
+            "advisoryDistanceM": 125.42640687181836
+          },
+          {
+            "existingId": "old",
+            "coordinates": [
+              37.59994851969628,
+              55.75143722028131
+            ],
+            "axisDegrees": 90,
+            "blockedEntryIds": [],
+            "entranceCompatible": true,
+            "advisoryDistanceM": 125.42640687269329
+          },
+          {
+            "existingId": "old",
+            "coordinates": [
+              37.599958172608524,
+              55.75116774150675
+            ],
+            "axisDegrees": 90,
+            "blockedEntryIds": [],
+            "entranceCompatible": true,
+            "advisoryDistanceM": 135.42640687176015
+          }
+        ],
+        "candidateLimit": 5,
+        "necessaryCheckOnly": true,
+        "method": "all_terminal_fixed_wall_direction_compatibility",
+        "globalInfeasibilityProven": false
+      },
+      "corridorTrees": {
+        "trials": [
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599967825356785,
+              55.750898262719176
+            ],
+            "order": "nearest_to_tree",
+            "complete": false,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "reason": "Наложение новых участков с учётом точности координат"
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599967825356785,
+              55.750898262719176
+            ],
+            "order": "farthest_first",
+            "complete": false,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "reason": "Наложение новых участков с учётом точности координат"
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599967825356785,
+              55.750898262719176
+            ],
+            "order": "largest_flow_first",
+            "complete": false,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "reason": "Наложение новых участков с учётом точности координат"
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599967825356785,
+              55.750898262719176
+            ],
+            "order": "seed_then_nearest",
+            "firstEntryId": "entry_A",
+            "complete": false,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "reason": "Наложение новых участков с учётом точности координат"
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599967825356785,
+              55.750898262719176
+            ],
+            "order": "seed_then_nearest",
+            "firstEntryId": "entry_B",
+            "complete": false,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "reason": "Наложение новых участков с учётом точности координат"
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.59994851969628,
+              55.75143722028131
+            ],
+            "order": "nearest_to_tree",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.6390255719890994,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.59994851969628,
+              55.75143722028131
+            ],
+            "order": "farthest_first",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.6390255719890994,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.59994851969628,
+              55.75143722028131
+            ],
+            "order": "largest_flow_first",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.6390255719890994,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.59994851969628,
+              55.75143722028131
+            ],
+            "order": "seed_then_nearest",
+            "firstEntryId": "entry_A",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.6390255719890994,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 323,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.59994851969628,
+              55.75143722028131
+            ],
+            "order": "seed_then_nearest",
+            "firstEntryId": "entry_B",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.6390255719890994,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 342,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599958172608524,
+              55.75116774150675
+            ],
+            "order": "nearest_to_tree",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.4960977719958652,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 342,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599958172608524,
+              55.75116774150675
+            ],
+            "order": "farthest_first",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.4960977719958652,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 342,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599958172608524,
+              55.75116774150675
+            ],
+            "order": "largest_flow_first",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.4960977719958652,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 342,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599958172608524,
+              55.75116774150675
+            ],
+            "order": "seed_then_nearest",
+            "firstEntryId": "entry_A",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.4960977719958652,
+            "newLengthM": 179.9999999992433
+          },
+          {
+            "gridNodes": 342,
+            "constructionDiameter": 125,
+            "portalCount": 8,
+            "entryPortCounts": {
+              "entry_A": 4,
+              "entry_B": 4
+            },
+            "role": "shared_tree_routing_graph",
+            "allTreeVerticesAreAttachmentCandidates": true,
+            "status": "ready",
+            "existingId": "old",
+            "coordinates": [
+              37.599958172608524,
+              55.75116774150675
+            ],
+            "order": "seed_then_nearest",
+            "firstEntryId": "entry_B",
+            "complete": true,
+            "exactEntranceSearchCount": 0,
+            "connected": 2,
+            "score": 2.4960977719958652,
+            "newLengthM": 179.9999999992433
+          }
+        ],
+        "method": "multi_source_shortest_attachment_on_rotated_corridor_graph",
+        "partialEntranceCompletion": "only_if_no_complete_candidate",
+        "completeCandidates": 10,
+        "elapsedMs": 239,
+        "allCandidatesExactlyRevalidated": true
+      },
+      "rootOutcomes": [
+        {
+          "existingId": "old",
+          "coordinates": [
+            37.59994851969628,
+            55.75143722028131
+          ],
+          "connected": 2,
+          "complete": true,
+          "score": 2.6390255719890994,
+          "unresolvedEntryIds": []
+        },
+        {
+          "existingId": "old",
+          "coordinates": [
+            37.599958172608524,
+            55.75116774150675
+          ],
+          "connected": 2,
+          "complete": true,
+          "score": 2.4960977719958652,
+          "unresolvedEntryIds": []
+        }
+      ],
+      "resumedFromBestNetwork": false,
+      "beamSkippedAfterCorridorTree": true,
+      "levels": [],
+      "testedExtensions": 0,
+      "rejectedExtensions": 0,
+      "maskedKnownFailures": 0,
+      "duplicateStates": 0,
+      "rejectedByEntry": {},
+      "rejections": [],
+      "rejectionsTruncated": false,
+      "repairs": [],
+      "acceptedRepairs": 0,
+      "completedLevels": 0,
+      "cancelled": false,
+      "sharedOptimization": {
+        "groupRepairEnabled": false,
+        "singleRootRequired": true,
+        "singleRootComparisonEnabled": false,
+        "singleRootTrials": [],
+        "groupTrials": [],
+        "stemTrials": [],
+        "method": "corridor_tree_joint_junctions_and_subtree_transplant",
+        "trainingValidationUsesFreshSearchOnly": true,
+        "beforeScore": 2.4960977719958652,
+        "junctionOptimization": {
+          "method": "joint_positions_and_adjacent_branch_exchange",
+          "beforeScore": 2.4960977719958652,
+          "beforeLengthM": 179.9999999992433,
+          "trials": [
+            {
+              "junctionIds": [
+                "grid_135"
+              ],
+              "pass": 1,
+              "candidateCount": 24,
+              "beforeScore": 2.4960977719958652,
+              "afterScore": 2.4960977719958652,
+              "savedLengthM": 0,
+              "accepted": false
+            }
+          ],
+          "globalOptimalityProven": false,
+          "completedPasses": 1,
+          "stopReason": "no_improving_junction_patch",
+          "acceptedPatches": 0,
+          "evaluatedNetworks": 24,
+          "checkedRoutes": 47,
+          "routeCacheHits": 15,
+          "afterScore": 2.4960977719958652,
+          "afterLengthM": 179.9999999992433,
+          "elapsedMs": 90
+        },
+        "newPreferencePairsForNextRun": 0,
+        "acceptedGroups": 0,
+        "acceptedStems": 0,
+        "acceptedLayouts": 0,
+        "afterScore": 2.4960977719958652,
+        "selectedTieIns": 1,
+        "elapsedMs": 93,
+        "singleRootPolicy": "one_root_required_no_forest_fallback"
+      },
+      "transitionCacheHits": 0,
+      "computedTransitions": 0,
+      "cachedFailuresByEntry": {}
+    },
+    "status": "FEWER_VARIANTS_FOUND",
+    "requiredConnections": 2,
+    "requestedVariants": 3,
+    "foundVariants": 2,
+    "bestConnectedCount": 2,
+    "unresolvedEntryIds": [],
+    "attempts": [
+      {
+        "attempt": 1,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.6390255719890994,
+        "bestScoreSoFar": 2.6390255719890994
+      },
+      {
+        "attempt": 2,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.6390255719890994,
+        "bestScoreSoFar": 2.6390255719890994
+      },
+      {
+        "attempt": 3,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.6390255719890994,
+        "bestScoreSoFar": 2.6390255719890994
+      },
+      {
+        "attempt": 4,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.6390255719890994,
+        "bestScoreSoFar": 2.6390255719890994
+      },
+      {
+        "attempt": 5,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.6390255719890994,
+        "bestScoreSoFar": 2.6390255719890994
+      },
+      {
+        "attempt": 6,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.4960977719958652,
+        "bestScoreSoFar": 2.4960977719958652
+      },
+      {
+        "attempt": 7,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.4960977719958652,
+        "bestScoreSoFar": 2.4960977719958652
+      },
+      {
+        "attempt": 8,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.4960977719958652,
+        "bestScoreSoFar": 2.4960977719958652
+      },
+      {
+        "attempt": 9,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.4960977719958652,
+        "bestScoreSoFar": 2.4960977719958652
+      },
+      {
+        "attempt": 10,
+        "strategy": "tree",
+        "stage": "corridor_tree",
+        "connected": 2,
+        "required": 2,
+        "complete": true,
+        "usedForTraining": false,
+        "scoreAfterSmoothing": 2.4960977719958652,
+        "bestScoreSoFar": 2.4960977719958652
+      }
+    ],
+    "globalOptimalityProven": false,
+    "restoredNetworks": 0,
+    "rejectedExperience": [],
+    "qualityProgress": {
+      "scoreDirection": "lower_is_better",
+      "bestBeforeRun": null,
+      "firstCompleteScore": 2.6390255719890994,
+      "firstCompleteAttempt": 1,
+      "bestFreshScore": 2.4960977719958652,
+      "bestAfterRun": 2.4960977719958652,
+      "baselineScore": 2.6390255719890994,
+      "baselineSource": "first_complete_episode",
+      "improvementPercent": 5.415930846229196,
+      "improved": true,
+      "completeEpisodes": 10,
+      "completedEpisodes": 10,
+      "episodesSinceLastImprovement": 4
+    },
+    "neuralGuidance": {
+      "requestedPolicy": "baseline",
+      "effectivePolicy": "off",
+      "modelId": "synthetic-quarter-mlp-2026-09-20-r4",
+      "modelSha256": "1c8bd5430f99e010ca1d0bf08f66997fbbe9c7a70f9b2c55c0c916dac7376a02",
+      "fallbackReason": "",
+      "candidates": 0,
+      "targetsSearched": 0,
+      "prunedByAnalyticalBound": 0,
+      "neuralPredictions": 0,
+      "featureFailures": 0,
+      "routeSearches": 0,
+      "preparationMs": 0,
+      "learnedValueUsedForPruning": false
+    },
+    "message": "Все возвращённые варианты подключают каждую заданную точку. Найдено различных решений: 2.",
+    "experience": {
+      "territoryKey": "17902a3869acc8d3cd5e996af44918a3952cd68b7609591cc4925f46bcd684a7",
+      "resumedTraining": false,
+      "notes": [],
+      "enabled": true,
+      "bestNetworksRevalidated": true
+    }
+  },
+  "elapsedMs": 436,
+  "outputBytes": 32715,
+  "algorithm": "Обзорный граф всей территории, разрежение до остова коридоров, поиск нескольких частичных деревьев и точная перепрокладка дорогих ветвей. Требуется одна общая врезка. На общей карте проходов ветви присоединяются к растущему дереву, сложные конечные подходы проверяются отдельно. Направление каждой проверяемой врезки предварительно проверяется для всех закреплённых входов. После первой врезки новые ветви присоединяются только к этому дереву. При резервном поиске сохранённая модель задаёт порядок проверки продолжений без обновления весов. Диффузионная модель не используется. Граф служит подсказкой: все готовые ветви проходят точные геометрические и инженерные проверки. Сохраняются только полные сети. Глобальный минимум не гарантируется.",
+  "assumptions": [
+    "Каждая заданная точка обязательна к подключению. Штраф за неподключение исключён. Если полная сеть не найдена, готовые варианты не выдаются. Свойства грунта отсутствуют; сложность учитывается по известным спецпроходам и глубине.",
+    "База оценки: вес стоимости 0,7 и длины 0,3. К длине для ранжирования добавлен штраф сложности: 90° — 25 условных метров, 45° — 50, 135° — 75. Учитываются также углы присоединений. Штраф не является метрами трубы или денежной статьёй. Профиль protocol переключает базовые веса.",
+    "Участок одного DN проверяется как связная компонента с суммой длин всех ветвей. Допускается одно повышение номенклатуры.",
+    "При наложении спецпроходов берётся максимальный коэффициент.",
+    "Концы труб совпадают с исходными точками подключения. Для точки внутри здания разрешён только прямой конечный вход через ближайшую внешнюю стену. Сторона фиксируется до поиска отдельно для каждой точки и не меняется при выборе маршрута или диаметра. Остальные стены запрещены. Вход относится только к этой точке: транзит и ответвления внутри здания запрещены. Внутренний отрезок входит в длину, DN, профиль и стоимость по действующему тарифу пары труб; отдельная модель внутренних систем и стоимости проходки стены пока отсутствует.",
+    "Внутренние повороты трасс — 45 или 90 градусов; прямые отрезки могут иметь произвольный азимут. Цена нестандартного отвода не требуется.",
+    "Профиль глубины непрерывный, без сетки 0,5 м; рельеф Z=0. Глубина до верха труб, Z=-h. Врезки и вводы закреплены на 3 м; общий узел имеет единую глубину.",
+    "depthRuleProfile=appendix использует табличные вертикальные просветы; protocol увеличивает их до max(0,7, табличный). Минимальное покрытие 0,7 м сохраняется в обоих профилях.",
+    "Длина и стоимость считаются по горизонтальной проекции. Коэффициент глубины применяется только к новой сети.",
+    "Профиль строится на найденном плане, полного поиска в пространстве XYZ нет. Переход, чьи обязательные подходы выходят за ребро графа, отклоняется; автоматического переноса площадки через камеру пока нет."
+  ]
+}

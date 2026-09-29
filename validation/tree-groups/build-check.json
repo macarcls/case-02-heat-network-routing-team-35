@@ -1,0 +1,12 @@
+{
+  "jarBytes": 32674274,
+  "jarSha256": "894084736d162135021f2d30c2fe3ab52ee4eab09797f7a7eec517ff8d088f2d",
+  "jarCrcVerified": true,
+  "sourceSha256": {
+    "server/src/main/java/ru/teplotrassa/engine/Planner.java": "2a3963a728b6ac1f14faebe4b3463f3ab17f0bb05789dd921d7ac52a844dad12",
+    "server/src/main/java/ru/teplotrassa/engine/TreePolicyTraining.java": "d79457d956d7016e702e1691f854f305210c55e1173f1f69cf952de55ea19cf6",
+    "server/src/main/java/ru/teplotrassa/api/BuildInfo.java": "b0fe9e132a45d4eeaaf5f2ce008db888fbf6f7f93fb89a9ff4142619f7057f95",
+    "server/src/main/resources/static/tree-1.6.0.js": "9f85e33046151a237cff87b62b993b9df9f6aff6dd0a4e433650eb98dcdbfd32",
+    "server/src/main/resources/static/tree-1.6.0.html": "7ba397386aa6dde35c5afa31527dafcc77773c0b9358a9b39d5620faa29bfee1"
+  }
+}

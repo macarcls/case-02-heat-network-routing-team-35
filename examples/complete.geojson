@@ -1,0 +1,363 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6,
+          55.75
+        ]
+      },
+      "properties": {
+        "id": "source_1",
+        "object_type": "source"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.6,
+            55.75
+          ],
+          [
+            37.59991955997554,
+            55.75224565652702
+          ]
+        ]
+      },
+      "properties": {
+        "id": "existing_up",
+        "object_type": "heat_network",
+        "diameter": 80,
+        "flow_tph": 10,
+        "upstream_object_id": "source_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.59991955997554,
+          55.75224565652702
+        ]
+      },
+      "properties": {
+        "id": "chamber_1",
+        "object_type": "heat_chamber",
+        "diameter": 80,
+        "upstream_object_id": "existing_up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.59991955997554,
+            55.75224565652702
+          ],
+          [
+            37.59980692480683,
+            55.75538957414766
+          ]
+        ]
+      },
+      "properties": {
+        "id": "existing_down",
+        "object_type": "heat_network",
+        "diameter": 80,
+        "flow_tph": 10,
+        "upstream_object_id": "chamber_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.60216867086094,
+              55.751732085102006
+            ],
+            [
+              37.602487214615145,
+              55.751735708380025
+            ],
+            [
+              37.60248079084422,
+              55.751915361074886
+            ],
+            [
+              37.60216224562697,
+              55.751911737772595
+            ],
+            [
+              37.60216867086094,
+              55.751732085102006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "oks_A",
+        "object_type": "oks_future",
+        "flow_tph": 20,
+        "heat_load": 0.6,
+        "height_m": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.60216545825305,
+          55.75182191143803
+        ]
+      },
+      "properties": {
+        "id": "entry_A",
+        "object_type": "oks_connection_point",
+        "oks_id": "oks_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.60247115505142,
+              55.75218484010638
+            ],
+            [
+              37.602789702536036,
+              55.75218846261961
+            ],
+            [
+              37.60278328004632,
+              55.75236811532432
+            ],
+            [
+              37.6024647310986,
+              55.75236449278681
+            ],
+            [
+              37.60247115505142,
+              55.75218484010638
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "oks_B",
+        "object_type": "oks_future",
+        "flow_tph": 35,
+        "heat_load": 1.05,
+        "height_m": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.60246794308411,
+          55.75227466644732
+        ]
+      },
+      "properties": {
+        "id": "entry_B",
+        "object_type": "oks_connection_point",
+        "oks_id": "oks_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.60245188297469,
+              55.75272379813034
+            ],
+            [
+              37.60277043484863,
+              55.752727420716404
+            ],
+            [
+              37.602764012140675,
+              55.75290707340378
+            ],
+            [
+              37.602445458803594,
+              55.75290345079345
+            ],
+            [
+              37.60245188297469,
+              55.75272379813034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "oks_C",
+        "object_type": "oks_future",
+        "flow_tph": 15,
+        "heat_load": 0.45,
+        "height_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.60244867089824,
+          55.75281362446262
+        ]
+      },
+      "properties": {
+        "id": "entry_C",
+        "object_type": "oks_connection_point",
+        "oks_id": "oks_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.600917004799925,
+              55.75108879968279
+            ],
+            [
+              37.60107627396207,
+              55.75109061303337
+            ],
+            [
+              37.60097981481878,
+              55.753785401513625
+            ],
+            [
+              37.60082053468337,
+              55.75378358798076
+            ],
+            [
+              37.600917004799925,
+              55.75108879968279
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_1",
+        "object_type": "restriction",
+        "restriction_type": "road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.60155408155774,
+            55.75109605184698
+          ],
+          [
+            37.60146729869381,
+            55.75352136202976
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gas_1",
+        "object_type": "restriction",
+        "restriction_type": "gas_pipeline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.603072933546905,
+              55.75318017424526
+            ],
+            [
+              37.60378968392308,
+              55.753188320324774
+            ],
+            [
+              37.60377363845058,
+              55.75363745219341
+            ],
+            [
+              37.603056879843926,
+              55.75362930597742
+            ],
+            [
+              37.603072933546905,
+              55.75318017424526
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "park_1",
+        "object_type": "restriction",
+        "restriction_type": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.59861316170906,
+              55.75312939362666
+            ],
+            [
+              37.59909099372275,
+              55.75313484214633
+            ],
+            [
+              37.59907167435489,
+              55.75367379930927
+            ],
+            [
+              37.59859383575688,
+              55.75366835068005
+            ],
+            [
+              37.59861316170906,
+              55.75312939362666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "existing_building_1",
+        "object_type": "oks_existing",
+        "height_m": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+server/target/
+/data/
+/server/data/
+*.log
+.env
+release/
